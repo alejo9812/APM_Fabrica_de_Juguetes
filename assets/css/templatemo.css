@@ -33,6 +33,7 @@ body, ul, li, p, a, label, input, div {
   font-family: 'Roboto', sans-serif;
   font-size: 18px !important;
   font-weight: 300 !important;
+  color: #ffffff;
 }
 .h1 {
   font-family: 'Roboto', sans-serif;
@@ -49,17 +50,22 @@ body, ul, li, p, a, label, input, div {
   font-size: 22px !important;
 }
 /* General */
-.logo { font-weight: 500 !important;}
+.logo { font-weight: 500 !important; left: -5%; position: relative;
+	animation-name: glowing;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
 .text-warning {  color: #ede861 !important;}
 .text-muted { color: #bcbcbc !important;}
-.text-success { color: #59ab6e !important;}
+.text-success { color: #06228f !important;}
 .text-light { color: #cfd6e1 !important;}
 .bg-dark { background-color: #212934 !important;}
 .bg-light { background-color: #e9eef5 !important;}
 .bg-black { background-color: #1d242d !important;}
-.bg-success { background-color: #59ab6e !important;}
+.bg-success { background-color: #06228f !important;}
 .btn-success {
-  background-color: #59ab6e !important;
+  background-color: #06228f !important;
   border-color: #56ae6c !important;
 }
 .pagination .page-link:hover {color: #000;}
@@ -68,10 +74,16 @@ body, ul, li, p, a, label, input, div {
   color: #fff;
 }
 /* Nav */
-#templatemo_nav_top { min-height: 40px;}
+#templatemo_nav_top { min-height: 40px; width: 100%}
 #templatemo_nav_top * { font-size: .9em !important;}
+#templatemo_nav {
+  width: 100%;
+  top: 4%;
+  z-index: 2;
+  background: white;
+}
 #templatemo_main_nav a { color: #212934;}
-#templatemo_main_nav a:hover { color: #69bb7e;}
+#templatemo_main_nav a:hover { color: #1734a7;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
@@ -116,12 +128,13 @@ body, ul, li, p, a, label, input, div {
 }
 /* Carousel Hero */
 #template-mo-zay-hero-carousel .carousel-indicators li {
+  position: relative;
   margin-top: -50px;
-  background-color: #59ab6e;
+  background-color: #ffffff;
 }
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-  color: #59ab6e !important;
+  color: #ffffff !important;
   font-size: 2.8em !important;
 }
 /* Carousel Brand */
@@ -132,13 +145,13 @@ body, ul, li, p, a, label, input, div {
 /* Services */
 .services-icon-wap {transition: .3s;}
 .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
-.services-icon-wap:hover {background: #69bb7e;}
+.services-icon-wap:hover {background: #06228f;}
 /* Contact map */
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #e8e8e8;}
 /* Footer */
 #tempaltemo_footer a { color: #dcdde1;}
-#tempaltemo_footer a:hover { color: #68bb7d;}
+#tempaltemo_footer a:hover { color: #193ed4;}
 #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
 #tempaltemo_footer ul.footer-icons li {
   width: 2.6em;
@@ -165,6 +178,18 @@ body, ul, li, p, a, label, input, div {
 .product-wap .product-color-dot {
   width: 6px;
   height: 6px;
+}
+
+@keyframes glowing {
+	0% {text-shadow: 2px 2px 32px #0079b1, 2px 2px 32px #181818;}
+	12% {text-shadow: 2px 2px 32px #0079b1, 2px 2px 32px #272727;}
+	25% {text-shadow: 2px 2px 32px #0079b1, 2px 2px 32px #3b3b3b;}
+	37% {text-shadow: 2px 2px 32px #0079b1, 2px 2px 32px #5c5c5c;}
+	50% {text-shadow: 2px 2px 32px #0079b1, 2px 2px 32px #7c7c7c;}
+	62% {text-shadow: 2px 2px 32px #0079b1, 2px 2px 32px #9b9b9b;}
+	75% {text-shadow: 2px 2px 32px #0079b1, 2px 2px 32px #c5c5c5;}
+	87% {text-shadow: 2px 2px 32px #0079b1, 2px 2px 32px #e0e0e0;}
+	100% {text-shadow: 2px 2px 32px #0079b1, 2px 2px 32px #ffffff;}
 }
 
 @media (min-width: 576px) {

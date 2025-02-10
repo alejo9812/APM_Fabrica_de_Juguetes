@@ -1,3 +1,324 @@
 /*
 Custom Css
 */
+
+/* Class and IDs Definition */
+
+#documentation,
+#documentation * {
+    max-width: 800px;
+    margin: auto;
+    padding: 14px;
+    font-family: Arial, sans-serif;
+    line-height: 1;
+    color: black;
+}
+
+#documentation h1, #documentation h2 {
+    color: #06228f;
+}
+
+.column {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+/* Left and right columns take 25% width */
+.left, .right {
+    width: 25%;
+    background: #f4f4f4; /* Light gray background */
+}
+
+/* Center column takes 50% width */
+.center {
+    width: 50%;
+    background: white;
+    overflow-y: auto; /* Scroll if content is too long */
+}
+
+.md-content {
+    padding-top: 7%;
+}
+
+#abt-container {
+    margin-left: 8%;
+}
+
+#abt-container div div {
+    margin: 5px 5px;
+}
+
+#abt-container div div:first-child {
+    margin-bottom: 7%;
+}
+
+#abt-container div .col-md-4 {
+    position:absolute;
+    right: 2%;
+}
+
+#members {
+    margin-bottom: 9%;
+}
+
+#members * {
+    color: black;
+}
+
+#members div div h1 {
+    position: relative;
+    top: 5%;
+}
+
+#members div div p {
+    position: relative;
+    top: 8%;
+    width: 100%;
+    height: 36%;
+}
+
+.product-container {
+	margin: auto;
+	height: 78vh;
+	width: 100%;
+	position: relative;
+    padding: 0%;
+	border: 2px solid #000000;
+	text-align: center;
+}
+
+.product-container div:hover {
+    animation-name: product-glowing;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+    cursor:pointer;
+}
+
+.product-container p {
+    position: relative;
+    top: 7%;
+}
+
+#product-tile {
+	margin: auto;
+	height: 50vh;
+	width: 33%;
+	position: relative;
+	border: 2px solid #000000;
+	text-align: center;    
+}
+
+.product-link {
+    display: block;
+    left: 0%;
+    top: -12%;
+    height: 100%;
+    width: auto;
+    position: relative;
+    z-index: -2;
+}
+
+.product-container div {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#product-section {
+    margin-bottom: 16vh;
+}
+
+#video-section {
+    background-color: #4136fd;
+	height: 27em;
+}
+
+.video-frame {
+    position: absolute;
+    left: 53%;
+    margin: 65px 20px;
+    width: 40%;
+    height: 360px;
+    border: 5px solid #000;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.video-text {
+    position: relative;
+    left: 4%;
+    top: 69%;
+    width: 33%;
+    margin: 62px 65px 53px 106px;
+    color: #fdf8f8;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#video-section .row div > div {
+    text-align: center;
+    font-size: 3.5em !important;
+    color:aqua;
+    margin-bottom: 20px;
+}
+
+.dark-layer {
+	background-color: #000000;
+    box-shadow: -26px 1px 24px -10px rgb(230, 235, 236) inset;
+	position: absolute;
+	width: 59.8%;
+	height: 101.8%;
+	z-index: 1;
+	opacity: 0.6;
+	pointer-events: none;
+}
+
+#bgVideo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    object-fit: cover;
+}
+
+#main-content {
+    position: absolute;
+    top: 3em;
+    left: 6%;
+    z-index: 2;
+}
+
+.img-container {
+    position: absolute;
+    overflow: hidden;
+    top: -3.5em;
+    left: 57.2%;
+    width: 100%;
+    height: 165%;
+    border: 2px solid #000;
+}
+
+.img-container:hover {
+    animation-name: product-glowing;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+    cursor:pointer;    
+}
+
+#product-text {
+    margin-top: 1%;
+    color: #000;
+}
+
+.product-container div div:first-child {
+    position: relative;
+    padding: 15px;
+    height: 12%;
+    text-transform: uppercase;
+    z-index: 2;
+    background-color: #000;
+    opacity: 0.7;
+    color: white;
+    box-shadow: 0px 2px 7px 5px #000;
+}
+
+.product-container div div span {
+    font-size: 1.3em;
+}
+
+.carousel-img {
+    position: absolute;
+	width: auto;
+}
+
+#carousel-img1 {
+    top: 0%;
+    left: -11%;
+    height: 100%;
+    animation: zoomIn 5s ease-out;
+	animation-fill-mode: forwards;
+}
+
+#carousel-img2 {
+    top: 0%;
+    left: -11%;
+    height: 100%;
+    animation: zoomIn 5s ease-out;
+	animation-fill-mode: forwards;
+}
+
+#carousel-img3 {
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    animation: zoomIn 5s ease-out;
+	animation-fill-mode: forwards;
+}
+
+#carousel-img4 {
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    animation: zoomIn 5s ease-out;
+	animation-fill-mode: forwards;
+}
+
+#carousel-img5 {
+    top: 0%;
+    left: -7%;
+    height: 100%;
+    animation: zoomIn 5s ease-out;
+    animation-fill-mode: forwards;
+}
+
+#carousel-img6 {
+    top: 0%;
+    left: -4%;
+    height: 100%;
+    animation: zoomIn 5s ease-out;
+	animation-fill-mode: forwards;
+}
+
+#carousel-img7 {
+    top: -16%;
+    left: -6%;
+    height: 100%;
+    animation: zoomIn 5s ease-out;
+	animation-fill-mode: forwards;
+}
+
+#carousel-img8 {
+    top: 0%;
+    left: -11%;
+    height: 100%;
+    animation: zoomIn 5s ease-out;
+	animation-fill-mode: forwards;
+}
+
+
+/* ANIMATIONS */
+
+@keyframes product-glowing {
+	0% {box-shadow: 2px 2px 32px #4136fd, 2px 2px 32px #181818;}
+	12% {box-shadow: 2px 2px 32px #4136fd, 2px 2px 32px #272727;}
+	25% {box-shadow: 2px 2px 32px #4136fd, 2px 2px 32px #3b3b3b;}
+	37% {box-shadow: 2px 2px 32px #4136fd, 2px 2px 32px #5c5c5c;}
+	50% {box-shadow: 2px 2px 32px #4136fd, 2px 2px 32px #7c7c7c;}
+	62% {box-shadow: 2px 2px 32px #4136fd, 2px 2px 32px #9b9b9b;}
+	75% {box-shadow: 2px 2px 32px #4136fd, 2px 2px 32px #c5c5c5;}
+	87% {box-shadow: 2px 2px 32px #4136fd, 2px 2px 32px #e0e0e0;}
+	100% {box-shadow: 2px 2px 32px #4136fd, 2px 2px 32px #ffffff;}
+}
+
+@keyframes zoomIn {
+    0% {
+        /* transform: scale(0.5); Imagen pequeña */
+		height: 100%;
+    }
+    100% {
+        /* transform: scale(1); Imagen en su tamaño normal */
+        height: 120%;
+    }
+}
