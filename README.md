@@ -3,4 +3,17 @@ Proyecto Final Asignatura Automatización de Procesos de Manufactura, Universida
 Link de la pagina del proyecto
 https://alejo9812.github.io/APM_Fabrica_de_Juguetes/
 
-[[Documentación/celda_robotizada.md]]
+## Introducción
+
+- Intro
+- Productos
+
+## Secciones
+
+- [[Documentación/celda_robotizada.md]]
+
+
+
+## Referencias
+
+- https://alejo9812.github.io/APM_Fabrica_de_Juguetes/index.html
