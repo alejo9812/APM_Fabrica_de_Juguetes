@@ -1,0 +1,510 @@
+﻿STEP to UG
+! INFO-     NX STEP AP214 - V2306.9160
+! INFO-      
+! INFO-     Start of Translation: 1-MAR-2025  9:20:02 PM
+! INFO-      
+! STATUS-   Converting Part: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\PLANTA.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        PLANTA.stp
+! SUMMARY-  Date             2025-03-01T18:43:50-05:00
+! SUMMARY-  Author           hmont
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v20
+! SUMMARY-  Orig_System      Autodesk Inventor 2025
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   6665
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:   9614
+! SUMMARY-  b_spline_curve_with_knots ..................................:  11185
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    336
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:   3682
+! SUMMARY-  cartesian_point ............................................: 363968
+! SUMMARY-  circle .....................................................:   6430
+! SUMMARY-  closed_shell ...............................................:    164
+! SUMMARY-  conical_surface ............................................:    145
+! SUMMARY-  context_dependent_over_riding_styled_item ..................:      2
+! SUMMARY-  context_dependent_shape_representation .....................:     54
+! SUMMARY-  cylindrical_surface ........................................:    907
+! SUMMARY-  direction ..................................................:  23211
+! SUMMARY-  edge_curve .................................................:  22038
+! SUMMARY-  edge_loop ..................................................:   7237
+! SUMMARY-  ellipse ....................................................:    104
+! SUMMARY-  face_bound .................................................:    572
+! SUMMARY-  face_outer_bound ...........................................:   6665
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     43
+! SUMMARY-  item_defined_transformation ................................:     54
+! SUMMARY-  length_unit_and_si_unit ....................................:      1
+! SUMMARY-  line .......................................................:   3983
+! SUMMARY-  manifold_solid_brep ........................................:    164
+! SUMMARY-  mapped_item ................................................:      1
+! SUMMARY-  next_assembly_usage_occurrence .............................:     54
+! SUMMARY-  oriented_edge ..............................................:  44076
+! SUMMARY-  plane ......................................................:   1625
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:     42
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:     42
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:     42
+! SUMMARY-  product_definition_shape ...................................:     96
+! SUMMARY-  product_related_product_category ...........................:     42
+! SUMMARY-  representation_map .........................................:      1
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     54
+! SUMMARY-  shape_representation .......................................:     42
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  spherical_surface ..........................................:     74
+! SUMMARY-  toroidal_surface ...........................................:    232
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     43
+! SUMMARY-  vector .....................................................:   3983
+! SUMMARY-  vertex_point ...............................................:  12825
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         530503
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 1-MAR-2025 9:20:06 PM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:10 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Placa_Juguete
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:    17
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             17
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:10 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Stud_4_15
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Stud_6_32
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\WheelAxle
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Wheel
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\MainAxle
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\UpperWing
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\LandingGear
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Pilot
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\VerticalCrossbar
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\VerticalTail
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\HorizontalTail
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Propellor
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Motor
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:11 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\LowerWing
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Holder
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Fuselage
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Material
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Lamina
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Caja
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Soporte_Corte
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Corte
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\B_Transportadora_Recta_5m_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\B_Transportadora_Recta_5m_1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Camara
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Soporte_Camara
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Banda_CI_5m
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Point .......................:     1
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:12 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Enfriamiento_Transporte
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:13 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\B_Transportadora_Recta_5m
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:13 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Comandos Painel_Valor predeterminado_Como usinado_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:14 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Painel_Valor predeterminado_Como usinado_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:14 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Conjunto Superior_Valor predeterminado_Como usinado_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:   107
+! SUMMARY-                                 -----
+! SUMMARY-  Total                            107
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:15 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Tela 300-300_Valor predeterminado_Como usinado_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:19 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Tela 250-250_Valor predeterminado_Como usinado_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:23 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Tela 200-300_Valor predeterminado_Como usinado_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:29 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Corpo_Valor predeterminado_Como usinado_
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid/Sheet .................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:29 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Painel Completo
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:29 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\extrusora
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     6
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              6
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:30 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Inspeccion_Calidad
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:30 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\Estacion_Corte
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     2
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              2
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:30 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\ToyPlaneAssembly
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    23
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             23
+! STATUS-   Creating the UG part (Phase 3 of 3): 1-MAR-2025  9:21:30 PM
+! INFO-     Filing Part ..: C:\Users\hmont\OneDrive\Desktop\2024-2\Automatizacion de Procesos de Manufactura\Modelado\PLANTA FINAL\NX\PLANTA.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    19
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             19
+! INFO-      
+! INFO-     Total number of solids input for this translation       :       164
+! INFO-      
+! INFO-     Number of solids created without body validation faults :       164
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 1-MAR-2025  9:21:31 PM
+! INFO-      
