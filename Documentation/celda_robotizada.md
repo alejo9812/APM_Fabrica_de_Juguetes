@@ -57,3 +57,21 @@ Un mal funcionamiento en el sistema de ventosas podría dar lugar a que la pieza
 
 Peligros en el sistema de control – Comportamientos impredecibles o fallos en la señalización de paro.<br/>
 Errores en el sistema de control, ya sea por interferencias o fallos internos, pueden desencadenar movimientos inesperados del robot o impedir que se active el paro de emergencia cuando sea necesario 
+
+
+Cálculo de valoración de riesgo HRN
+
+![image](https://github.com/user-attachments/assets/143cc3d1-9409-454a-ace4-4e60094f2fbd)
+
+![image](https://github.com/user-attachments/assets/7f231ad7-135e-44e5-ac0c-f1b684951ed8)
+
+![image](https://github.com/user-attachments/assets/26cc9b07-d13d-4060-acaf-33f056a7562d)
+
+![image](https://github.com/user-attachments/assets/20f8a3f1-2b56-41f6-a264-d7604cfdf619)
+
+![image](https://github.com/user-attachments/assets/efedd1ef-0fe4-474d-b651-5731ce3fec5f)
+
+![image](https://github.com/user-attachments/assets/ff8d23d4-dd29-41bf-b225-63ea256eab2b)
+
+
+
