@@ -21,15 +21,18 @@ Dimensiones del producto:
 W = 142 mm
 L = 250 mm
 H = 145 mm
-El dise˜no consiste de 8 partes, las cuales son:
+El diseño consiste de 8 partes, las cuales son:
 1. Eje de la pala
 2. Carcasa superior
 3. Carcasa inferior
-4. R´ın
+4. Rin
 5. Pala
-6. Neum´atico
+6. Neumático
 7. Soporte de la pala
-8. Uni´on pernada
+8. Unión pernada
+
+![image](https://github.com/user-attachments/assets/27f78354-6fb7-4cf5-aae6-ece1d58d828d)
+
 
 ## Avión
 
@@ -37,6 +40,7 @@ El dise˜no consiste de 8 partes, las cuales son:
 ---
 ## Dinosaurio
 
+![image](https://github.com/user-attachments/assets/828cc55e-301d-499b-abff-46705decf40d)
 
 
 
