@@ -6,11 +6,11 @@ Corte de piezas que salen de la inyectora
 Diagrama de flujo de los pasos a seguir para el diseño de la celda d e trabajo
 
 Lista de componentes de la celda:
-Robot IRB 1600 6Kg
-Controlador IRC5 con Flex pendant
-Cortadora de plástico hidráulica
-Herramienta de ventosas  (Vacuum gripper)
-Bandas transportadoras de cintas
+-Robot IRB 1600 6Kg
+-Controlador IRC5 con Flex pendant
+-Cortadora de plástico hidráulica
+-Herramienta de ventosas  (Vacuum gripper)
+-Bandas transportadoras de cintas
 
 Aplicación del robot: pick and place
 Estado de entrada de los materiales a la entrada de la celda: Las piezas se encuentran unidas por los canales que se generan al inyectar el plástico en el molde
