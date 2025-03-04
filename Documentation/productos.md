@@ -36,9 +36,43 @@ El diseño consiste de 8 partes, las cuales son:
 
 ## Avión
 
+![image](https://github.com/user-attachments/assets/6f778800-616e-4a51-84b9-71eec4f94df3)
+
+1. Main body
+2. Horizontal tail
+3. Vertica tail
+4. Lower wing
+5. Upper wing
+6. Stud
+7. Landing gear
+8. Main axle
+9. Wheel
+10. Wheel axle
+11. Wooden pilot
+12. Vertical cross bar
+13. Stud
+14. Holder
+15. Engine
+16. Propeller
+
+
+![image](https://github.com/user-attachments/assets/ebbab615-c25b-4153-a9af-04c95b9c3b90)
 
 ---
 ## Dinosaurio
+
+Consiste de 4 articulaciones rotacionales, una por cada extensión de este.
+
+1. Cabeza
+2. Brazo
+3. Torzo exterior
+4. Pie
+5. Pierna
+6. Escamas inferiores
+7. Tornillos
+8. Cola
+9. Acople
+   
 
 ![image](https://github.com/user-attachments/assets/828cc55e-301d-499b-abff-46705decf40d)
 
