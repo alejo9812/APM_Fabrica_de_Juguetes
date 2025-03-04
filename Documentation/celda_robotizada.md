@@ -73,5 +73,7 @@ Cálculo de valoración de riesgo HRN
 
 ![image](https://github.com/user-attachments/assets/ff8d23d4-dd29-41bf-b225-63ea256eab2b)
 
+Para Los peligros identificados se tienen las siguientes medidas de mitigación de acuerdo a su nivel HRN:
 
+![image](https://github.com/user-attachments/assets/514afe9e-42fa-45cc-b80f-dae6339779b9)
 
