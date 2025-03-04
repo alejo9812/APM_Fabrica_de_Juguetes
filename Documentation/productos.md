@@ -38,6 +38,12 @@ El diseño consiste de 8 partes, las cuales son:
 
 ![image](https://github.com/user-attachments/assets/6f778800-616e-4a51-84b9-71eec4f94df3)
 
+
+
+
+![image](https://github.com/user-attachments/assets/ebbab615-c25b-4153-a9af-04c95b9c3b90)
+
+
 1. Main body
 2. Horizontal tail
 3. Vertica tail
@@ -55,13 +61,15 @@ El diseño consiste de 8 partes, las cuales son:
 15. Engine
 16. Propeller
 
-
-![image](https://github.com/user-attachments/assets/ebbab615-c25b-4153-a9af-04c95b9c3b90)
-
 ---
 ## Dinosaurio
 
 Consiste de 4 articulaciones rotacionales, una por cada extensión de este.
+
+   
+
+![image](https://github.com/user-attachments/assets/828cc55e-301d-499b-abff-46705decf40d)
+
 
 1. Cabeza
 2. Brazo
@@ -72,9 +80,4 @@ Consiste de 4 articulaciones rotacionales, una por cada extensión de este.
 7. Tornillos
 8. Cola
 9. Acople
-   
-
-![image](https://github.com/user-attachments/assets/828cc55e-301d-499b-abff-46705decf40d)
-
-
 
