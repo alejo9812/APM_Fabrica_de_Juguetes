@@ -12,6 +12,11 @@ Lista de componentes de la celda:<br/>
 -Herramienta de ventosas  (Vacuum gripper)<br/>
 -Bandas transportadoras de cintas<br/>
 
+Esquema de dimesiones principales de la celda
+
+![image](https://github.com/user-attachments/assets/0ff5c9f3-452b-4cd3-95bb-e02b76ce0145)
+
+
 Aplicación del robot: pick and place<br/>
 Estado de entrada de los materiales a la entrada de la celda: Las piezas se encuentran unidas por los canales que se generan al inyectar el plástico en el molde.<br/>
 Estado de los materiales a la salida de la celda: las piezas salen separadas al haber sido cortadas.<br/>
