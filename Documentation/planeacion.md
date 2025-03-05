@@ -34,7 +34,7 @@ De acuerdo a los entregables principales listados anteriormente, se desglosa cad
 
 A la cabeza del diagrama se encuentra el nombre del proyecto, de aquí se desprenden los entregables principales, los cuales, se desglosan en actividades más pequeñas.
 
-![Pasted image 20250303224016.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304212630.png)
+![Pasted image 20250303224016.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303224016.png)
 
 Se muestra a continuación, la vista global del EDT, se abordará cada subsección individualmente.
 
