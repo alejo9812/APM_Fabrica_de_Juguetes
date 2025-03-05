@@ -1,74 +1,86 @@
 # Celda Robotizada
 
 ## Etapa del proceso
+
 Corte de piezas que salen de la inyectora
-
-
-## Lista de componentes de la celda
-
+## Lista de componentes de la celda:<br/>
 - Robot IRB 1600 6Kg<br/>
-- Controlador IRC5 con Flex pendant<br/>
-- Cortadora de plástico hidráulica<br/>
-- Herramienta de ventosas  (Vacuum gripper)<br/>
-- Bandas transportadoras de cintas<br/>
+![image](https://github.com/user-attachments/assets/bc0cf1d2-05af-4738-8826-d08f5f08a365)
+
+-Controlador IRC5 con Flex pendant<br/>
+![image](https://github.com/user-attachments/assets/2b6a2678-0a5c-4aea-a65a-6796cc2859c0)
+
+-Cortadora de plástico hidráulica<br/>
+![image](https://github.com/user-attachments/assets/7d158e80-079d-42f6-b36e-39f6372ad4e7)
+
+-Herramienta de ventosas  (Vacuum gripper)<br/>
+![image](https://github.com/user-attachments/assets/6dfe9244-829c-4892-a225-c16b89e8bd91)
+
+-Bandas transportadoras de cintas<br/>
+![image](https://github.com/user-attachments/assets/3f41689a-bfad-480f-ad2b-70c721b511c3)
+
+>>>>>>> b491afaaabf7bb429ff8a3ecc856abe0a0539d13
 
 ## Esquema de dimesiones principales de la celda
 
 
 ![image](https://github.com/user-attachments/assets/0ff5c9f3-452b-4cd3-95bb-e02b76ce0145)
 
-## Video del funcionamiento de la celda
+## Video del funcionamiento de la celda: 
+https://drive.google.com/file/d/1hfZtn6iqIP3IWaBhmp_aUnDJb7ep9PRY/view?usp=sharing
 
-[Funcionamiento de la celda](https://drive.google.com/file/d/1hfZtn6iqIP3IWaBhmp_aUnDJb7ep9PRY/view?usp=sharing)
+## Aplicación del robot: 
+pick and place<br/>
+## Estado de entrada de los materiales a la entrada de la celda: 
+Las piezas se encuentran unidas por los canales que se generan al inyectar el plástico en el molde.<br/>
+![image](https://github.com/user-attachments/assets/b7afc64c-4eed-4d02-8e9b-a0a2be5f2b04)
+>>>>>>> b491afaaabf7bb429ff8a3ecc856abe0a0539d13
 
-## Aplicación del robot
+## Estado de los materiales a la salida de la celda: 
+Las piezas salen separadas al haber sido cortadas.<br/>
 
-*Pick and Place*
+![image](https://github.com/user-attachments/assets/83aebadb-36d3-461a-bc86-ba5250a12d60)
 
-## Estado de entrada de los materiales a la entrada de la celda
 
-Las piezas se encuentran unidas por los canales que se generan al inyectar el plástico en el molde.
-## Estado de los materiales a la salida de la celda: las piezas salen separadas al haber sido cortadas.<br/>
-
-Duty cycle:
-
-Throughput time:
-
+## Throughput time:
+El proceso total en la celda toma 16 segundos.
 
 ## Peligros a partir de la norma  norma ISO 10218-1:2011:<br/>
 
-1. Peligros mecánicos – Movimientos imprevistos del brazo del robot.<br/>
+- Peligros mecánicos – Movimientos imprevistos del brazo del robot.<br/>
 El robot puede realizar movimientos no deseados (normales o imprevistos) que podrían impactar a operarios o dañar piezas, sobre todo durante la manipulación entre la banda y la cortadora 
 
-2. Peligros mecánicos – Movimiento imprevisto del elemento terminal (herramienta de ventosas).<br/>
+- Peligros mecánicos – Movimiento imprevisto del elemento terminal (herramienta de ventosas).<br/>
 Si la herramienta sufre una falla o libera la pieza de forma inesperada, se corre el riesgo de que la pieza se desprenda o caiga, generando situaciones de riesgo 
 
-3. Peligros mecánicos – Aplastamiento o cizallamiento.<br/>
+- Peligros mecánicos – Aplastamiento o cizallamiento.<br/>
 Durante el posicionamiento o corte, existe el peligro de que la pieza quede atrapada entre el robot y la cortadora o entre el robot y la banda transportadora, pudiendo producir aplastamientos o cortes accidentales 
 
-4. Peligros eléctricos – Contacto con componentes energizados.<br/>
+- Peligros eléctricos – Contacto con componentes energizados.<br/>
 La exposición a conexiones o componentes eléctricos del robot o de la cortadora (por ejemplo, en el sistema de control) puede provocar choques eléctricos o quemaduras 
 
-5. Peligros térmicos – Superficies calientes o riesgo de quemaduras.<br/>
+- Peligros térmicos – Superficies calientes o riesgo de quemaduras.<br/>
 La cortadora, al realizar operaciones de corte, puede generar superficies elevadas en temperatura o emitir chispas, lo que representa un riesgo de quemaduras para el personal o dañar los materiales 
 
-6. Peligros ergonómicos – Ubicación inadecuada de controles y señalización deficiente.<br/>
+- Peligros ergonómicos – Ubicación inadecuada de controles y señalización deficiente.<br/>
 Un mal diseño de la interfaz y la disposición de los dispositivos de validación o consolas puede dificultar la rápida intervención en situaciones de emergencia, aumentando el riesgo ergonómico para el operario 
 
-7. Peligros asociados con el entorno – Obstáculos, suelos resbaladizos y mala iluminación.<br/>
+- Peligros asociados con el entorno – Obstáculos, suelos resbaladizos y mala iluminación.<br/>
 La celda debe garantizar que no existan obstáculos en el trayecto del robot, que el suelo tenga una superficie antideslizante y que la iluminación sea adecuada para evitar caídas o la imposibilidad de evacuación en emergencias 
 
-8. Combinación de peligros – Liberación imprevista de energía potencial acumulada.<br/>
+- Combinación de peligros – Liberación imprevista de energía potencial acumulada.<br/>
 Fallos en los sistemas de sujeción o en la operación de la herramienta pueden provocar que se libere de forma inesperada la energía almacenada (por inercia o gravedad), generando movimientos bruscos y peligrosos 
 
-9. Peligros mecánicos – Fallo en el sistema de agarre (ventosas).<br/>
+- Peligros mecánicos – Fallo en el sistema de agarre (ventosas).<br/>
 Un mal funcionamiento en el sistema de ventosas podría dar lugar a que la pieza se caiga o se desplace inesperadamente, afectando tanto la calidad del producto como la seguridad del área de trabajo 
 
-10. Peligros en el sistema de control – Comportamientos impredecibles o fallos en la señalización de paro.<br/>
+- Peligros en el sistema de control – Comportamientos impredecibles o fallos en la señalización de paro.<br/>
 Errores en el sistema de control, ya sea por interferencias o fallos internos, pueden desencadenar movimientos inesperados del robot o impedir que se active el paro de emergencia cuando sea necesario 
 
 
 ## Cálculo de valoración de riesgo HRN
+
+Para calcular la severidad de los riesgoz que se identificaron se el método HRN de la siguiente manera:
 
 ![image](https://github.com/user-attachments/assets/143cc3d1-9409-454a-ace4-4e60094f2fbd)
 
