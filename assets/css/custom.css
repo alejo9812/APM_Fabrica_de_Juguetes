@@ -250,8 +250,8 @@ Custom Css
 }
 
 #carousel-img3 {
-    top: 0%;
-    left: 0%;
+    top: -5%;
+    left: -16%;
     height: 100%;
     animation: zoomIn 5s ease-out;
 	animation-fill-mode: forwards;
@@ -259,7 +259,7 @@ Custom Css
 
 #carousel-img4 {
     top: 0%;
-    left: 0%;
+    left: -47%;
     height: 100%;
     animation: zoomIn 5s ease-out;
 	animation-fill-mode: forwards;
@@ -274,7 +274,7 @@ Custom Css
 }
 
 #carousel-img6 {
-    top: 0%;
+    top: -16%;
     left: -4%;
     height: 100%;
     animation: zoomIn 5s ease-out;
@@ -319,6 +319,6 @@ Custom Css
     }
     100% {
         /* transform: scale(1); Imagen en su tamaño normal */
-        height: 120%;
+        height: 110%;
     }
 }
