@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/planeacion.md",
+                "file": "Documentation/gestion.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gestion"
+            }
+          },
+          {
+            "id": "0ef687fe3341b425",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "planeacion"
+              "title": "README"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -168,18 +183,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a8934b120037f59",
+  "active": "0ef687fe3341b425",
   "lastOpenFiles": [
     "Documentation/eva_economica.md",
-    "Documentation/celda_robotizada.md",
+    "README.md",
     "Documentation/ind4_0.md",
     "Documentation/gestion.md",
+    "Documentation/planeacion.md",
+    "Documentación/planeacion.md",
+    "Documentación",
+    "Documentation/celda_robotizada.md",
     "Images/Pasted image 20250304214706.png",
     "assets/img/toy1.png",
     "Images/Pasted image 20250304214418.png",
-    "Documentation/planeacion.md",
     "Images/toy1.png",
-    "README.md",
     "Images/Pasted image 20250304212630.png",
     "Images/Pasted image 20250304212559.png",
     "Images/Pasted image 20250304212522.png",
@@ -195,7 +212,6 @@
     "Modelado/NX/extrusora.prt",
     "Modelado/NX/WheelAxle.prt",
     "Modelado/NX/Wheel.prt",
-    "Modelado/NX/VerticalTail.prt",
     "Documentation/productos.md",
     "Documentation/scada.md",
     "Documentation/siemens_nx.md",

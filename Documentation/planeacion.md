@@ -1,4 +1,4 @@
-# Planeación
+# Planeación del Proyecto
 
 El desarrollo del proyecto fue llevado a cabo de acuerdo a la planificación de actividades previstas, durante las primeras semanas. Se implementó el modelo *PM4R* del *BID (Banco Intermediario de Desarrollo)*, el cual consiste de 7 pasos clave ([7 Steps to Obtain Results in Projects](http://www.pm4rglobal.org/steps.html?lang=en)).
 

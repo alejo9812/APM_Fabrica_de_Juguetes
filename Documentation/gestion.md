@@ -206,7 +206,7 @@ $$
 \end{align*}
 $$
 
-
+	
 ## Selección de Maquinaria
 
 Se hace una investigación sobre la maquinaria a utilizar en cada etapa, con la finalidad de identificar costos y tiempos de operación en cada estación.
