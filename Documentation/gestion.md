@@ -77,6 +77,10 @@ Se muestran a continuación, imágenes de la planta para dar a entender mejor su
 
 ![Pasted image 20250304153958.png](Pasted%20image%2020250304153958.png)
 
+El layout de la planta sigue la siguiente estructura:
+
+![[Pasted image 20250304212112.png]]
+
 Para la definición del número de estaciones, se tuvieron en cuenta los siguientes aspectos:
 - Demanda requerida mensualmente ([Evaluación Económica](eva_economica.md))
 - Balance de líneas
@@ -96,6 +100,16 @@ A continuación, se enuncian los tiempos tenidos en cuenta:
 | 6                 | Embalaje             | 0      | 5      | 0       | 3      | 2       | 10     | 250     | 1       | 99.5% |
 
 Teniendo en cuenta que la demanda es de 5000 juguetes al mes, se tiene una producción anual de alrededor de 60.000 unidades. Esto sugiere que la empresa se puede clasificar como una compañía pequeña, de acuerdo a las clasificaciones empresariales del DANE y el Ministerio de Comercio, Industria y Turismo de Colombia.
+
+En la simulación se tienen en cuenta todas las piezas de los juguetes, así como también su cantidad. Se establecen estos parámetros en las estaciones de ensamble, de acuerdo al tipo de producto. Se muestra a continuación, la tabla en *Tecnomatix* donde se guardan estos parámetros.
+
+![[Pasted image 20250304214418.png]]
+
+El modelo de la planta propone un enfoque flexible, por lo que el sistema se adapta al tipo de producto y a la capacidad de producción. Se expone a continuación, la tabla en el software de simulación, donde se define el plan de producción con respecto a los insumos necesarios para lograr la demanda requerida mensual.
+
+![[Pasted image 20250304214706.png]]
+
+Se tiene en cuenta que cada paquete de pellets, produce un producto a la salida de la inyectora. Los elementos que salen de esta, se componen de más piezas dependiendo del tipo de producto ( ver piezas de salida de la inyectora en la sección [Selección de Maquinaria](#Selección+de+Maquinaria)).
 
 Debido a que la única estación en la que intervienen trabajadores de manera directa es la estación de ensamblaje, se analiza sobre el número de trabajadores necesarios para lograr este volumen de producción en una jornada de 8 horas y 5 días a la semana. Se investiga sobre el tiempo que le puede tomar a un trabajador ensamblar un juguete como los que se manejan en la planta.
 
@@ -155,6 +169,8 @@ De acuerdo a los tiempos útiles de cada máquina antes de efectuar un mantenimi
 | **MTTM** | Mean Time To Maintenance  | 5 h     |
 | **A**    | Availability              | 99,86 % |
 
+A continuación se listan los parámetros relacionados con el inventario en proceso:
+
 | Parámetro | Descripción                                 | Valor         |
 | --------- | ------------------------------------------- | ------------- |
 | MLT       | Manufacturing Lead Time                     | 30 min        |
@@ -166,8 +182,79 @@ De acuerdo a los tiempos útiles de cada máquina antes de efectuar un mantenimi
 | Lq        | Longitud de cola esperada                   | 0.16 unit     |
 | ρ         | Factor de utilización                       | 0.34 -        |
 | L         | Total de elementos en el sistema            | 0.50 unit     |
+| $t_q$     | Tiempo de espera                            | 18,24 s       |
+| $t_e$     | Tiempo en la estación                       | 39,474 s      |
+| $t_s$     | Tiempo en el sistema                        | 57,714 s      |
 
+| Parámetro          | Descripción                | Valor         |
+| ------------------ | -------------------------- | ------------- |
+| $T_C$              | Tiempo de ciclo real       | 32 min        |
+| $T_E$              | Tiempo de ejecución real   | 1080 min      |
+| $V_{RP}$           | Volumen real de producción | 1125 unidades |
+| RE                 | Rate of Efficiency         | 0.920         |
+| SE                 | Speed Efficiency           | 0.920         |
+| PE                 | Performance Efficiency     | 0.846         |
+| Salida defectuosos | Salida de defectuosos      | 22.5 unidades |
+| Q                  | Quality Rate               | 0.98          |
+De acuerdo a lo anterior, se determina el *OEE* de la compañía:
+
+$$
+\begin{align*}
+	OEE &= A\cdot PE\cdot Q \\\\
+	&= (0,9986\cdot 0,846\cdot 0,98) \\\\
+	&= 82,832\,\,\%
+\end{align*}
+$$
 
 
 ## Selección de Maquinaria
+
+Se hace una investigación sobre la maquinaria a utilizar en cada etapa, con la finalidad de identificar costos y tiempos de operación en cada estación.
+
+Para la etapa de inyección, se generan los moldes estimados que se obtendría para la generación de las partes de cada juguete. Se tienen en cuenta las características del moldeo por inyección, así como dimensiones estándar para la los moldes. 
+
+| Capacidad de Inyección (g) | Aplicaciones Comunes                                                                       |
+| -------------------------- | ------------------------------------------------------------------------------------------ |
+| 50 - 500 g                 | Piezas pequeñas (componentes pequeños, tapas de botellas)                                  |
+| 500 - 2,000 g              | Piezas medianas (carcasas de electrodomésticos, juguetes más grandes, autopartes pequeñas) |
+| 2,000 - 5,000 g            | Piezas grandes (cajas plásticas, contenedores, autopartes de tamaño mediano)               |
+| 5,000 - 10,000 g           | Piezas de gran tamaño (parachoques de autos, muebles plásticos)                            |
+| +10,000 g (10 kg o más)    | Producción especializada (componentes industriales, partes estructurales)                  |
+
+Piezas obtenidas tras la inyección:
+
+- **Cargadora**
+
+![[Pasted image 20250304212426.png]]
+
+![[Pasted image 20250304212452.png]]
+
+![[Pasted image 20250304212522.png]]
+
+- **Avión**
+
+![[Pasted image 20250304212559.png]]
+
+![[Pasted image 20250304212630.png]]
+
+Con respecto a las dimensiones que toman estas piezas, se selecciona el tamaño de las placas del molde que debe tener la inyectora. Siendo así, se selecciona la inyectora *ARBURG 270 S 250-60*, la cual cuenta con un tamaño de placas de 400 x 400 mm.
+
+Para la etapa de corte, se selecciona una máquina de cortado hidráulico como la que se usa en el siguiente proceso: [Injection Moulding Machine Tending with JAKA Zu 12](https://www.youtube.com/watch?v=rA9lx6keugY)
+
+No se encontró alguna referencia en específico de esta máquina.
+
+Después de la etapa de cortado, las piezas resentan rebabas e impefecciones que deben ser removidas. En la industria, existen varias máquinas para remover este tipo de desechos, estas máquinas estás se utilizan más que todo para piezas metálicas. Sin embargo, una manera de remover estas rebabas, es utilizando una máquina de pulido superficial por vibración ([Equipo de pulido superficial - Vibradora Rectangular](https://www.youtube.com/watch?v=Gmig4ZVl8B0)). Se selecciona la referencia *ZL80* de la línea *Jintaijing Polishing*.
+
+A continuación, se exponen los resultados obtenidos a partir de esta investigación:
+
+| Número de Proceso | Estación                  | Referencia          | Enlace                                                                                                                                                                                                                      | Descripción                                                                        | Proveedor             | Cantidad | Costo Unitario [Divisa Original] | Costo Unitario [COP] | Costo [COP] |
+| ----------------- | ------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------- | -------- | -------------------------------- | -------------------- | ----------- |
+| 1                 | Inyección de Plástico ABS | Arburg 270 S 250-60 | [Ver](https://machineryline.com.co/-/venta/maquinas-de-moldeo-por-inyeccion/Arburg/270-S-250-60--24102414483809520200)                                                                                                      | Tamaño de las placas del molde: 400x400 mm<br><br>Dimensiones: 2,9 m x 1 m x 1,8 m | Machineryline         | 1        | €4.900 EUR                       | $21.036.680          | $21.036.680 |
+| 2                 | Corte de los Moldes       | -                   | -                                                                                                                                                                                                                           | Dimensiones: 1,2 x 0,5 x 1,4 m                                                     | -                     | 1        | -                                | -                    | -           |
+| 3                 | Pulido Superficial        | ZL80                | [Ver](https://www.surface-polish.com/200l-300l-400l-vibratory-finishing-machine_p16.html?_gl=1*1px3uq2*_up*MQ..*_gs*MQ..&gclid=CjwKCAiAk8G9BhA0EiwAOQxmfub3zkYQo8l8CWQ9OHEk8NZLlmuAwTC7K6miw0iCepDrppXJsnyBeBoCNtAQAvD_BwE) | Dimensiones: 0,9m x 0,9m x 0,82                                                    | Jintaijing Polishing  | 2        | $6.500 USD                       | $27.905.800          | $55.811.600 |
+| 4                 | Ensamblaje                | N/A                 | N/A                                                                                                                                                                                                                         | Dimensiones: 0,8m x 0,5m x 0,9m                                                    | N/A                   | 2        | €250 EUR                         | $1.073.300           | $0          |
+| 5                 | Empaque                   | CES-4035-N          | [Ver](https://mcbrawn.com/encintadoras/carton-erector-ces-4035-n.html)                                                                                                                                                      | Dimensiones: 2m x 1,9m x 1,45m                                                     | Brother USA Machinery | 1        | $12.800 USD                      | $54.952.960          | $54.952.960 |
+
+
+**Ver siguiente sección:** [Industria 4.0 en Nuestro Proyecto](ind4_0.md)
 

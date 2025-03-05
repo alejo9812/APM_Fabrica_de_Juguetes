@@ -12,7 +12,7 @@ Tiny ML features:
 
 Reduce the size of the network. Sometimes accuracy is lost.
 
-![Alt text](../toy1.png)
+![Alt text](toy1.png)
 
 - _Quantization_
 
