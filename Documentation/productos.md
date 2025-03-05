@@ -1,12 +1,9 @@
 # Productos
 
-Añadir descripción
+Se ofrecen tres tipos de juguetes distintos listados a continuación:
 
-
----
 ## Cargadora
 
----
 Cargadora de juguete plástica, la cual cuenta con 4 llantas y una
 pala. Los elementos anteriormente mencionados son móviles. Cuentan con 1 grado de libertad de rotación.
 El producto está destinado para niños en el rango de edad de 8-12 años.
@@ -61,12 +58,9 @@ El diseño consiste de 8 partes, las cuales son:
 15. Engine
 16. Propeller
 
----
 ## Dinosaurio
 
 Consiste de 4 articulaciones rotacionales, una por cada extensión de este.
-
-   
 
 ![image](https://github.com/user-attachments/assets/828cc55e-301d-499b-abff-46705decf40d)
 
