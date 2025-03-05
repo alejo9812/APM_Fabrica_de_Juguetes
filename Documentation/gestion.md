@@ -79,7 +79,7 @@ Se muestran a continuación, imágenes de la planta para dar a entender mejor su
 
 El layout de la planta sigue la siguiente estructura:
 
-![[../Images/Pasted image 20250304212112.png]]
+![../Images/Pasted image 20250304212112.png](../Images/Pasted%20image%2020250304212112.png)
 
 Para la definición del número de estaciones, se tuvieron en cuenta los siguientes aspectos:
 - Demanda requerida mensualmente ([Evaluación Económica](eva_economica.md))
@@ -103,11 +103,11 @@ Teniendo en cuenta que la demanda es de 5000 juguetes al mes, se tiene una produ
 
 En la simulación se tienen en cuenta todas las piezas de los juguetes, así como también su cantidad. Se establecen estos parámetros en las estaciones de ensamble, de acuerdo al tipo de producto. Se muestra a continuación, la tabla en *Tecnomatix* donde se guardan estos parámetros.
 
-![[Pasted image 20250304214418.png]]
+![Pasted image 20250304214418.png](../Images/Pasted%20image%2020250304214418.png)
 
 El modelo de la planta propone un enfoque flexible, por lo que el sistema se adapta al tipo de producto y a la capacidad de producción. Se expone a continuación, la tabla en el software de simulación, donde se define el plan de producción con respecto a los insumos necesarios para lograr la demanda requerida mensual.
 
-![[Pasted image 20250304214706.png]]
+![Pasted image 20250304214706.png](../Images/Pasted%20image%2020250304214706.png)
 
 Se tiene en cuenta que cada paquete de pellets, produce un producto a la salida de la inyectora. Los elementos que salen de esta, se componen de más piezas dependiendo del tipo de producto ( ver piezas de salida de la inyectora en la sección [Selección de Maquinaria](#Selección+de+Maquinaria)).
 
@@ -225,17 +225,17 @@ Piezas obtenidas tras la inyección:
 
 - **Cargadora**
 
-![[Pasted image 20250304212426.png]]
+![Pasted image 20250304212426](../Images/Pasted%20image%2020250304212426.png)
 
-![[Pasted image 20250304212452.png]]
+![Pasted image 20250304212452.png](../Images/Pasted%20image%2020250304212452.png)
 
-![[Pasted image 20250304212522.png]]
+![Pasted image 20250304212522.png](../Images/Pasted%20image%2020250304212522.png)
 
 - **Avión**
 
-![[Pasted image 20250304212559.png]]
+![Pasted image 20250304212559.png](../Images/Pasted%20image%2020250304212559.png)
 
-![[Pasted image 20250304212630.png]]
+![Pasted image 20250304212630.png](../Images/Pasted%20image%2020250304212630.png)
 
 Con respecto a las dimensiones que toman estas piezas, se selecciona el tamaño de las placas del molde que debe tener la inyectora. Siendo así, se selecciona la inyectora *ARBURG 270 S 250-60*, la cual cuenta con un tamaño de placas de 400 x 400 mm.
 
