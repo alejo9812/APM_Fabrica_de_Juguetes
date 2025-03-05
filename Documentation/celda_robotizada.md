@@ -6,10 +6,20 @@ Corte de piezas que salen de la inyectora
 
 ## Lista de componentes de la celda:<br/>
 -Robot IRB 1600 6Kg<br/>
+![image](https://github.com/user-attachments/assets/bc0cf1d2-05af-4738-8826-d08f5f08a365)
+
 -Controlador IRC5 con Flex pendant<br/>
+![image](https://github.com/user-attachments/assets/2b6a2678-0a5c-4aea-a65a-6796cc2859c0)
+
 -Cortadora de plástico hidráulica<br/>
+![image](https://github.com/user-attachments/assets/7d158e80-079d-42f6-b36e-39f6372ad4e7)
+
 -Herramienta de ventosas  (Vacuum gripper)<br/>
+![image](https://github.com/user-attachments/assets/6dfe9244-829c-4892-a225-c16b89e8bd91)
+
 -Bandas transportadoras de cintas<br/>
+![image](https://github.com/user-attachments/assets/3f41689a-bfad-480f-ad2b-70c721b511c3)
+
 
 ## Esquema de dimesiones principales de la celda
 
