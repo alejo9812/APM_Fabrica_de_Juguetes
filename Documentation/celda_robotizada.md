@@ -1,6 +1,6 @@
 # Celda Robotizada
 
-Etapa del proceso
+## Etapa del proceso
 Corte de piezas que salen de la inyectora
 
 Diagrama de flujo de los pasos a seguir para el diseño de la celda d e trabajo
