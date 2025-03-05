@@ -299,6 +299,12 @@ Custom Css
 	animation-fill-mode: forwards;
 }
 
+.main_vid {
+    position: relative;
+    right: -38em;
+    bottom: 23em;
+}
+
 
 /* ANIMATIONS */
 
