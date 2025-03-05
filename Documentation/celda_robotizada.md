@@ -19,7 +19,6 @@ Corte de piezas que salen de la inyectora
 -Bandas transportadoras de cintas<br/>
 ![image](https://github.com/user-attachments/assets/3f41689a-bfad-480f-ad2b-70c721b511c3)
 
->>>>>>> b491afaaabf7bb429ff8a3ecc856abe0a0539d13
 
 ## Esquema de dimesiones principales de la celda
 
