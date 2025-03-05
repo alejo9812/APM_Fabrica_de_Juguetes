@@ -78,7 +78,7 @@ Errores en el sistema de control, ya sea por interferencias o fallos internos, p
 
 ## Cálculo de valoración de riesgo HRN
 
-Para calcular la severidad de los riesgoz que se identificaron se el método HRN de la siguiente manera:
+Para calcular la severidad de los riesgoz que se identificaron se usó el método HRN de la siguiente manera:
 
 ![image](https://github.com/user-attachments/assets/143cc3d1-9409-454a-ace4-4e60094f2fbd)
 
