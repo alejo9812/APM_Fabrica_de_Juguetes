@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/celda_robotizada.md",
+                "file": "Documentation/eva_economica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "celda_robotizada"
+              "title": "eva_economica"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "1a8934b120037f59",
   "lastOpenFiles": [
+    "Documentation/celda_robotizada.md",
     "Documentation/eva_economica.md",
     "Documentation/ind4_0.md",
     "Documentation/gestion.md",
@@ -197,7 +198,6 @@
     "Modelado/NX/VerticalTail.prt",
     "Documentation/productos.md",
     "Documentation/scada.md",
-    "Documentation/celda_robotizada.md",
     "Documentation/siemens_nx.md",
     "Documentation/plcs.md"
   ]
