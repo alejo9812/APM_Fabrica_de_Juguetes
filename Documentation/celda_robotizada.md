@@ -33,7 +33,6 @@ pick and place<br/>
 ## Estado de entrada de los materiales a la entrada de la celda: 
 Las piezas se encuentran unidas por los canales que se generan al inyectar el plástico en el molde.<br/>
 ![image](https://github.com/user-attachments/assets/b7afc64c-4eed-4d02-8e9b-a0a2be5f2b04)
->>>>>>> b491afaaabf7bb429ff8a3ecc856abe0a0539d13
 
 ## Estado de los materiales a la salida de la celda: 
 Las piezas salen separadas al haber sido cortadas.<br/>
