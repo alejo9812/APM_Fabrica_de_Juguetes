@@ -14,7 +14,7 @@ El layout va siendo modificado a medida que se tienen en cuenta otros aspectos c
 
 A continuación, se muestra la primera propuesta del layout de la planta. Su objetivo es generar un acercamiento a modo de prototipo inicial, donde se identifiquen las etapas mencionadas en la sección [Planeación](planeacion.md).
 
-![Pasted image 20250304131555.png](Pasted%20image%2020250304131555.png)
+![Pasted image 20250304131555.png](Images/Pasted%20image%2020250304131555.png)
 
 ![Pasted image 20250304132532.png](Pasted%20image%2020250304132532.png)
 

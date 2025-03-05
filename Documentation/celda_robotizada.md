@@ -7,16 +7,16 @@ Corte de piezas que salen de la inyectora
 - Robot IRB 1600 6Kg<br/>
 ![image](https://github.com/user-attachments/assets/bc0cf1d2-05af-4738-8826-d08f5f08a365)
 
--Controlador IRC5 con Flex pendant<br/>
+- Controlador IRC5 con Flex pendant<br/>
 ![image](https://github.com/user-attachments/assets/2b6a2678-0a5c-4aea-a65a-6796cc2859c0)
 
--Cortadora de plástico hidráulica<br/>
+- Cortadora de plástico hidráulica<br/>
 ![image](https://github.com/user-attachments/assets/7d158e80-079d-42f6-b36e-39f6372ad4e7)
 
--Herramienta de ventosas  (Vacuum gripper)<br/>
+- Herramienta de ventosas  (Vacuum gripper)<br/>
 ![image](https://github.com/user-attachments/assets/6dfe9244-829c-4892-a225-c16b89e8bd91)
 
--Bandas transportadoras de cintas<br/>
+- Bandas transportadoras de cintas<br/>
 ![image](https://github.com/user-attachments/assets/3f41689a-bfad-480f-ad2b-70c721b511c3)
 
 
@@ -26,10 +26,11 @@ Corte de piezas que salen de la inyectora
 ![image](https://github.com/user-attachments/assets/0ff5c9f3-452b-4cd3-95bb-e02b76ce0145)
 
 ## Video del funcionamiento de la celda: 
-https://drive.google.com/file/d/1hfZtn6iqIP3IWaBhmp_aUnDJb7ep9PRY/view?usp=sharing
+
+[Funcionamiento de la celda](https://drive.google.com/file/d/1hfZtn6iqIP3IWaBhmp_aUnDJb7ep9PRY/view?usp=sharing)
 
 ## Aplicación del robot: 
-pick and place<br/>
+Pick and Place<br/>
 ## Estado de entrada de los materiales a la entrada de la celda: 
 Las piezas se encuentran unidas por los canales que se generan al inyectar el plástico en el molde.<br/>
 ![image](https://github.com/user-attachments/assets/b7afc64c-4eed-4d02-8e9b-a0a2be5f2b04)
@@ -96,3 +97,5 @@ Para calcular la severidad de los riesgoz que se identificaron se usó el métod
 
 ![image](https://github.com/user-attachments/assets/514afe9e-42fa-45cc-b80f-dae6339779b9)
 
+
+**Ver siguiente sección:** [Simulación de la Fábrica Digital](siemens_nx.md)

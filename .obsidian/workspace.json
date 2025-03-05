@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Documentation/gestion.md",
-                "mode": "preview",
+                "file": "Documentation/scada.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "gestion"
+              "title": "scada"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Documentation/celda_robotizada.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "celda_robotizada"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,38 +182,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ef687fe3341b425",
+  "active": "1a8934b120037f59",
   "lastOpenFiles": [
-    "Documentation/eva_economica.md",
-    "README.md",
-    "Documentation/ind4_0.md",
-    "Documentation/gestion.md",
-    "Documentation/planeacion.md",
-    "Documentación/planeacion.md",
-    "Documentación",
+    "Documentation/plcs.md",
+    "Documentation/siemens_nx.md",
     "Documentation/celda_robotizada.md",
-    "Images/Pasted image 20250304214706.png",
-    "assets/img/toy1.png",
-    "Images/Pasted image 20250304214418.png",
+    "Documentation/ind4_0.md",
+    "Documentation/eva_economica.md",
+    "Documentation/gestion.md",
     "Images/toy1.png",
+    "Images/Pasted image 20250304214706.png",
+    "Images/Pasted image 20250304214418.png",
     "Images/Pasted image 20250304212630.png",
     "Images/Pasted image 20250304212559.png",
     "Images/Pasted image 20250304212522.png",
     "Images/Pasted image 20250304212452.png",
     "Images/Pasted image 20250304212426.png",
     "Images/Pasted image 20250304212112.png",
+    "Images/Pasted image 20250304155226.png",
     "Images",
+    "Evaluación Económica/Ev.Economica_APM.xlsx",
+    "Evaluación Económica",
+    "Plant Simulation.spp",
+    "Ev.Economica_APM.xlsx",
+    "Documentation/scada.md",
+    "README.md",
+    "Documentation/planeacion.md",
+    "Documentación/planeacion.md",
+    "Documentación",
     "Modelado/Studio 5000/AM_Emulate_APM_Prueba.ACD",
     "Modelado/NX/trd link.prt",
     "Modelado/NX/snd link.prt",
     "Modelado/NX/slider.prt",
-    "Modelado/NX/plastic injection machine.log",
-    "Modelado/NX/extrusora.prt",
-    "Modelado/NX/WheelAxle.prt",
-    "Modelado/NX/Wheel.prt",
-    "Documentation/productos.md",
-    "Documentation/scada.md",
-    "Documentation/siemens_nx.md",
-    "Documentation/plcs.md"
+    "Documentation/productos.md"
   ]
 }

@@ -184,8 +184,10 @@ Custom Css
 
 #main-content {
     position: absolute;
+    width: 96%;
+    height: 62%;
     top: 3em;
-    left: 6%;
+    left: 5%;
     z-index: 2;
 }
 
@@ -250,7 +252,7 @@ Custom Css
 }
 
 #carousel-img3 {
-    top: -5%;
+    top: 1%;
     left: -16%;
     height: 100%;
     animation: zoomIn 5s ease-out;
@@ -259,7 +261,7 @@ Custom Css
 
 #carousel-img4 {
     top: 0%;
-    left: -47%;
+    left: -26%;
     height: 100%;
     animation: zoomIn 5s ease-out;
 	animation-fill-mode: forwards;
@@ -274,7 +276,7 @@ Custom Css
 }
 
 #carousel-img6 {
-    top: -16%;
+    top: 1%;
     left: -4%;
     height: 100%;
     animation: zoomIn 5s ease-out;
@@ -282,7 +284,7 @@ Custom Css
 }
 
 #carousel-img7 {
-    top: -16%;
+    top: 0%;
     left: -6%;
     height: 100%;
     animation: zoomIn 5s ease-out;
