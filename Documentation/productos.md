@@ -51,7 +51,7 @@ El diseño consiste de 8 partes, las cuales son:
 8. Main axle
 9. Wheel
 10. Wheel axle
-11. Wooden pilot
+11. Pilot
 12. Vertical cross bar
 13. Stud
 14. Holder
@@ -74,4 +74,3 @@ Consiste de 4 articulaciones rotacionales, una por cada extensión de este.
 7. Tornillos
 8. Cola
 9. Acople
-
