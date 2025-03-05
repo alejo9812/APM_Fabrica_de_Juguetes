@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "6ab69714570e96bb",
+        "id": "9e3a7cc6d2acd76c",
         "type": "tabs",
         "children": [
           {
-            "id": "b1de003b290c2ef8",
+            "id": "1a8934b120037f59",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "aa693202bdaf69d5",
+            "id": "0f17dbc6c7813993",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,8 +183,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa693202bdaf69d5",
+  "active": "0f17dbc6c7813993",
   "lastOpenFiles": [
+    "Documentation/planeacion.md",
+    "Images/Pasted image 20250304155226.png",
+    "Images/Pasted image 20250303224016.png",
+    "Images/Pasted image 20250303232354.png",
+    "Images/Pasted image 20250304132804.png",
+    "Images/Pasted image 20250304153850.png",
+    "Images/Pasted image 20250304153946.png",
+    "Images/Pasted image 20250304153958.png",
+    "Images/Pasted image 20250303230714.png",
+    "Images/Pasted image 20250303224318.png",
+    "Images/Pasted image 20250303224129.png",
+    "Documentation/gestion.md",
+    "Images",
     "Modelado/Studio 5000/AM_Emulate_APM_Prueba.ACD",
     "Modelado/NX/trd link.prt",
     "Modelado/NX/snd link.prt",
@@ -194,21 +207,7 @@
     "Modelado/NX/WheelAxle.prt",
     "Modelado/NX/Wheel.prt",
     "Modelado/NX/VerticalTail.prt",
-    "Modelado/NX/VerticalCrossbar.prt",
-    "Modelado/NX/UpperWing.prt",
-    "Modelado/CAD/render1.JPG",
-    "Modelado/CAD/Factory.png",
-    "Modelado/CAD/Dinosaurio_Partes.png",
-    "Modelado/CAD/Avion_Partes.png",
-    "Modelado/CAD/Avion_Medidas.png",
-    "Modelado/CAD/Avion_Completo.png",
-    "Modelado/CAD/1_Procesos Planta.png",
-    "Pasted image 20250304155226.png",
-    "Pasted image 20250304153958.png",
-    "Pasted image 20250304153946.png",
     "Documentation/eva_economica.md",
-    "Documentation/gestion.md",
-    "Documentation/planeacion.md",
     "Documentation/productos.md",
     "Documentation/scada.md",
     "Documentation/celda_robotizada.md",

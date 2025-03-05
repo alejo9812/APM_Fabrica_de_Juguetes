@@ -14,23 +14,23 @@ El layout va siendo modificado a medida que se tienen en cuenta otros aspectos c
 
 A continuación, se muestra la primera propuesta del layout de la planta. Su objetivo es generar un acercamiento a modo de prototipo inicial, donde se identifiquen las etapas mencionadas en la sección [Planeación](planeacion.md).
 
-![[Pasted image 20250304131555.png]]
+![Pasted image 20250304131555.png](Pasted%20image%2020250304131555.png)
 
-![[Pasted image 20250304132532.png]]
+![Pasted image 20250304132532.png](Pasted%20image%2020250304132532.png)
 
 Por tanto, en este primer layout no se ha definido aún exactamente el número de estaciones por etapa, la distribución y lo tiempos. Es un modelo lineal que únicamente ilustra cada etapa.
 
 Reorganizando el layout anterior utilizando una distribución en U, se obtuvo lo siguiente:
 
-![[Pasted image 20250304132804.png]]
+![Pasted image 20250304132804.png](Pasted%20image%2020250304132804.png)
 
 Se organizan también las estaciones de ensamble manual:
 
-![[Pasted image 20250304132719.png]]
+![Pasted image 20250304132719.png](Pasted%20image%2020250304132719.png)
 
 ### Layout de la Planta
 
-Se tienen en cuenta ahora los aspectos económicos como la demanda y el presupuesto establecido para el proyecto (ver sección [Evaluación Económica](eva_economica)).
+Se tienen en cuenta ahora los aspectos económicos como la demanda y el presupuesto establecido para el proyecto (ver sección [Evaluación Económica](eva_economica.md)).
 
 Los principales problemas de los layouts propuestos anteriormente son los siguientes:
 - Número de estaciones inadecuado de acuerdo a la demanda
@@ -43,9 +43,9 @@ Teniendo en cuenta estos criterios, se reevalúa la distribución de la planta, 
 
 Se muestra a continuación, el layout definitivo de la planta:
 
-![[Pasted image 20250304153702.png]]
+![Pasted image 20250304153702.png](Pasted%20image%2020250304153702.png)
 
-![[Pasted image 20250304153757.png]]
+![Pasted image 20250304153757.png](Pasted%20image%2020250304153757.png)
 
 Se ha organizado la planta teniendo en cuenta estrategias de *Lean Manufacturing*, las cuales se evidencian en la distribución, de la siguiente manera:
 - *Metodología Just In Time (JIT)* : Se eliminan almacenes a la salida
@@ -67,15 +67,15 @@ Siendo así, se listan las ventajas de la distribución de la planta:
 
 Se muestran a continuación, imágenes de la planta para dar a entender mejor su distribución:
 
-![[Pasted image 20250304153833.png]]
+![Pasted image 20250304153833.png](Pasted%20image%2020250304153833.png)
 
-![[Pasted image 20250304153850.png]]
+![Pasted image 20250304153850.png](Pasted%20image%2020250304153850.png)
 
-![[Pasted image 20250304153908.png]]
+![Pasted image 20250304153908.png](Pasted%20image%2020250304153908.png)
 
-![[Pasted image 20250304153946.png]]
+![Pasted image 20250304153946.png](Pasted%20image%2020250304153946.png)
 
-![[Pasted image 20250304153958.png]]
+![Pasted image 20250304153958.png](Pasted%20image%2020250304153958.png)
 
 Para la definición del número de estaciones, se tuvieron en cuenta los siguientes aspectos:
 - Demanda requerida mensualmente ([Evaluación Económica](eva_economica.md))
@@ -105,7 +105,7 @@ Se concluye que para juguetes de complejidad media (entre 5 y 20 piezas), el tie
 
 Se obtiene la siguiente distribución de cargas en las estaciones:
 
-![[Pasted image 20250304155226.png]]
+![Pasted image 20250304155226.png](Pasted%20image%2020250304155226.png)
 
 En la sección de ensamblaje se puede evidenciar una mayor carga, esto tiene sentido debido a que las operaciones son manuales y toman un mayor tiempo con respecto a las otras etapas, a su vez, se asignan porcentajes de falla más altos en estas estaciones, por lo que un humano es más propenso a presentar fallas en la manufactura, que una máquina.
 
