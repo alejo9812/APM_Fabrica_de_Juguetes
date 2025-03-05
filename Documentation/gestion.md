@@ -14,19 +14,19 @@ El layout va siendo modificado a medida que se tienen en cuenta otros aspectos c
 
 A continuación, se muestra la primera propuesta del layout de la planta. Su objetivo es generar un acercamiento a modo de prototipo inicial, donde se identifiquen las etapas mencionadas en la sección [Planeación](planeacion.md).
 
-![Pasted image 20250304131555.png](../Images/Pasted%20image%2020250304131555.png)
+![image](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304131555.png)
 
-![Pasted image 20250304132532.png](../Images/Pasted%20image%2020250304132532.png)
+![Pasted image 20250304132532.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304132532.png)
 
 Por tanto, en este primer layout no se ha definido aún exactamente el número de estaciones por etapa, la distribución y lo tiempos. Es un modelo lineal que únicamente ilustra cada etapa.
 
 Reorganizando el layout anterior utilizando una distribución en U, se obtuvo lo siguiente:
 
-![Pasted image 20250304132804.png](../Images/Pasted%20image%2020250304132804.png)
+![Pasted image 20250304132804.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304132804.png)
 
 Se organizan también las estaciones de ensamble manual:
 
-![Pasted image 20250304132719.png](../Images/Pasted%20image%2020250304132719.png)
+![Pasted image 20250304132719.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304132719.png)
 
 ### Layout de la Planta
 
@@ -43,9 +43,9 @@ Teniendo en cuenta estos criterios, se reevalúa la distribución de la planta, 
 
 Se muestra a continuación, el layout definitivo de la planta:
 
-![Pasted image 20250304153702.png](../Images/Pasted%20image%2020250304153702.png)
+![Pasted image 20250304153702.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304153702.png)
 
-![Pasted image 20250304153757.png](../Images/Pasted%20image%2020250304153757.png)
+![Pasted image 20250304153757.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304153757.png)
 
 Se ha organizado la planta teniendo en cuenta estrategias de *Lean Manufacturing*, las cuales se evidencian en la distribución, de la siguiente manera:
 - *Metodología Just In Time (JIT)* : Se eliminan almacenes a la salida
@@ -67,19 +67,19 @@ Siendo así, se listan las ventajas de la distribución de la planta:
 
 Se muestran a continuación, imágenes de la planta para dar a entender mejor su distribución:
 
-![Pasted image 20250304153833.png](../Images/Pasted%20image%2020250304153833.png)
+![Pasted image 20250304153833.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304153833.png)
 
-![Pasted image 20250304153850.png](../Images/Pasted%20image%2020250304153850.png)
+![Pasted image 20250304153850.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304153850.png)
 
-![Pasted image 20250304153908.png](../Images/Pasted%20image%2020250304153908.png)
+![Pasted image 20250304153908.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304153908.png)
 
-![Pasted image 20250304153946.png](../Images/Pasted%20image%2020250304153946.png)
+![Pasted image 20250304153946.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304153946.png)
 
-![Pasted image 20250304153958.png](../Images/Pasted%20image%2020250304153958.png)
+![Pasted image 20250304153958.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304153958.png)
 
 El layout de la planta sigue la siguiente estructura:
 
-![../Images/Pasted image 20250304212112.png](../Images/Pasted%20image%2020250304212112.png)
+![../Images/Pasted image 20250304212112.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304212112.png)
 
 Para la definición del número de estaciones, se tuvieron en cuenta los siguientes aspectos:
 - Demanda requerida mensualmente ([Evaluación Económica](eva_economica.md))
@@ -103,11 +103,11 @@ Teniendo en cuenta que la demanda es de 5000 juguetes al mes, se tiene una produ
 
 En la simulación se tienen en cuenta todas las piezas de los juguetes, así como también su cantidad. Se establecen estos parámetros en las estaciones de ensamble, de acuerdo al tipo de producto. Se muestra a continuación, la tabla en *Tecnomatix* donde se guardan estos parámetros.
 
-![Pasted image 20250304214418.png](../Images/Pasted%20image%2020250304214418.png)
+![Pasted image 20250304214418.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304214418.png)
 
 El modelo de la planta propone un enfoque flexible, por lo que el sistema se adapta al tipo de producto y a la capacidad de producción. Se expone a continuación, la tabla en el software de simulación, donde se define el plan de producción con respecto a los insumos necesarios para lograr la demanda requerida mensual.
 
-![Pasted image 20250304214706.png](../Images/Pasted%20image%2020250304214706.png)
+![Pasted image 20250304214706.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304214706.png)
 
 Se tiene en cuenta que cada paquete de pellets, produce un producto a la salida de la inyectora. Los elementos que salen de esta, se componen de más piezas dependiendo del tipo de producto ( ver piezas de salida de la inyectora en la sección [Selección de Maquinaria](#Selección+de+Maquinaria)).
 
@@ -119,7 +119,7 @@ Se concluye que para juguetes de complejidad media (entre 5 y 20 piezas), el tie
 
 Se obtiene la siguiente distribución de cargas en las estaciones:
 
-![Pasted image 20250304155226.png](../Images/Pasted%20image%2020250304155226.png)
+![Pasted image 20250304155226.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304155226.png)
 
 En la sección de ensamblaje se puede evidenciar una mayor carga, esto tiene sentido debido a que las operaciones son manuales y toman un mayor tiempo con respecto a las otras etapas, a su vez, se asignan porcentajes de falla más altos en estas estaciones, por lo que un humano es más propenso a presentar fallas en la manufactura, que una máquina.
 
@@ -225,17 +225,17 @@ Piezas obtenidas tras la inyección:
 
 - **Cargadora**
 
-![Pasted image 20250304212426](../Images/Pasted%20image%2020250304212426.png)
+![Pasted image 20250304212426](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304212426.png)
 
-![Pasted image 20250304212452.png](../Images/Pasted%20image%2020250304212452.png)
+![Pasted image 20250304212452.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304212452.png)
 
-![Pasted image 20250304212522.png](../Images/Pasted%20image%2020250304212522.png)
+![Pasted image 20250304212522.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304212522.png)
 
 - **Avión**
 
-![Pasted image 20250304212559.png](../Images/Pasted%20image%2020250304212559.png)
+![Pasted image 20250304212559.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304212522.png)
 
-![Pasted image 20250304212630.png](../Images/Pasted%20image%2020250304212630.png)
+![Pasted image 20250304212630.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304212630.png)
 
 Con respecto a las dimensiones que toman estas piezas, se selecciona el tamaño de las placas del molde que debe tener la inyectora. Siendo así, se selecciona la inyectora *ARBURG 270 S 250-60*, la cual cuenta con un tamaño de placas de 400 x 400 mm.
 
