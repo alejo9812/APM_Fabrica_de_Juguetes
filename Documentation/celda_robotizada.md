@@ -16,6 +16,7 @@ Esquema de dimesiones principales de la celda
 
 ![image](https://github.com/user-attachments/assets/0ff5c9f3-452b-4cd3-95bb-e02b76ce0145)
 
+Video del funcionamiento de la celda: https://drive.google.com/file/d/1hfZtn6iqIP3IWaBhmp_aUnDJb7ep9PRY/view?usp=sharing
 
 Aplicación del robot: pick and place<br/>
 Estado de entrada de los materiales a la entrada de la celda: Las piezas se encuentran unidas por los canales que se generan al inyectar el plástico en el molde.<br/>
