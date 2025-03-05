@@ -172,10 +172,12 @@ Se comparan también las propiedades de los materiales utilizados en la industri
 | **Resistencia al impacto Izod (J/m)**      | 200 - 400 | -                 | -                          |
 | **Resistencia al impacto Charpy (kJ/m²)**  | -         | 3 - 12 (HIPS)     | 4 - 20 (Homopolímero)      |
 | **Dureza Shore D**                         | -         | 60 - 75 (HIPS)    | 72 - 74 (Homopolímero)     |
-[Guía de materiales plásticos en juguetes](https://www.demengtoy.com/es/guide-to-plastic-materials-used-in-toy-manufacturing.html)
-[ABS en Wikipedia](https://es.wikipedia.org/wiki/Acrilonitrilo_butadieno_estireno)
-[Poliestireno en Wikipedia](https://es.wikipedia.org/wiki/Poliestireno)
-[Polipropileno en Wikipedia](https://es.wikipedia.org/wiki/Polipropileno)
+
+Referencias:
+- [Guía de materiales plásticos en juguetes](https://www.demengtoy.com/es/guide-to-plastic-materials-used-in-toy-manufacturing.html)
+- [ABS en Wikipedia](https://es.wikipedia.org/wiki/Acrilonitrilo_butadieno_estireno)
+- [Poliestireno en Wikipedia](https://es.wikipedia.org/wiki/Poliestireno)
+- [Polipropileno en Wikipedia](https://es.wikipedia.org/wiki/Polipropileno)
 
 Se concluye que el ABS es la mejor opcion, de acuerdo a la aplicación de nuestros productos. Estos no serán sometidos a cargas grandes.
 
