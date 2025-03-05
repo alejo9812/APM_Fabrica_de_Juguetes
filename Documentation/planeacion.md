@@ -34,18 +34,18 @@ De acuerdo a los entregables principales listados anteriormente, se desglosa cad
 
 A la cabeza del diagrama se encuentra el nombre del proyecto, de aquí se desprenden los entregables principales, los cuales, se desglosan en actividades más pequeñas.
 
-![Pasted image 20250303224016.png](Pasted%20image%2020250303224016.png)
+![Pasted image 20250303224016.png](../Images/Pasted%20image%2020250303224016.png)
 
 Se muestra a continuación, la vista global del EDT, se abordará cada subsección individualmente.
 
-![Pasted image 20250303232441.png](Pasted%20image%2020250303232441.png)
+![Pasted image 20250303232441.png](../Images/Pasted%20image%2020250303232441.png)
 
 
 ### Acciones Preliminares
 
 Se plantea en las primeras semanas la identidad del grupo, así como los productos a ser fabricados. 
 
-![Pasted image 20250303224318.png](Pasted%20image%2020250303224318.png)
+![Pasted image 20250303224318.png](../Images/Pasted%20image%2020250303224318.png)
 
 Los productos son seleccionados de acuerdo a los parámetros establecidos en las instrucciones del proyecto. Se tuvieron en cuenta aspectos adicionales para la selección de los mismos, los cuales son:
 
@@ -67,11 +67,11 @@ El objetivo principal de esta sección es definir por cada juguete, los siguient
 
 Se analizan también algunos parámetros para la selección de maquinaria. Se seleccionan ciertas referencias en el mercado, de tal manera que se pueda tener un acercamiento más preciso sobre los costos y características de la maquinaria que influirá en otras actividades del proyecto.
 
-![Pasted image 20250303230714.png](Pasted%20image%2020250303230714.png)
+![Pasted image 20250303230714.png](../Images/Pasted%20image%2020250303230714.png)
 
-![Pasted image 20250303230745.png](Pasted%20image%2020250303230745.png)
+![Pasted image 20250303230745.png](../Images/Pasted%20image%2020250303230745.png)
 
-![Pasted image 20250303230822.png](Pasted%20image%2020250303230822.png)
+![Pasted image 20250303230822.png](../Images/Pasted%20image%2020250303230822.png)
 
 
 ### Organización y Gestión
@@ -80,9 +80,9 @@ En esta sección se definen aquellas piezas adicionales en cada juguete que debe
 
 Se define también el layout de la planta, junto con el número de máquinas en cada etapa.
 
-![Pasted image 20250303232328.png](Pasted%20image%2020250303232328.png)
+![Pasted image 20250303232328.png](../Images/Pasted%20image%2020250303232328.png)
 
-![Pasted image 20250303232354.png](Pasted%20image%2020250303232354.png)
+![Pasted image 20250303232354.png](../Images/Pasted%20image%2020250303232354.png)
 
 
 ### Análisis de Manufactura
@@ -91,13 +91,13 @@ De acuerdo al layout de la planta concebido en la anterior sección, se organiza
 
 Se desarrolla en esta sección la simulación de la planta en con *Tecnomatix Plant Simulation*, y se obtienen los parámetros de gestión y producción.
 
-![Pasted image 20250303233352.png](Pasted%20image%2020250303233352.png)
+![Pasted image 20250303233352.png](../Images/Pasted%20image%2020250303233352.png)
 
-![Pasted image 20250303233455.png](Pasted%20image%2020250303233455.png)
+![Pasted image 20250303233455.png](../Images/Pasted%20image%2020250303233455.png)
 
-![Pasted image 20250303233513.png](Pasted%20image%2020250303233513.png)
+![Pasted image 20250303233513.png](../Images/Pasted%20image%2020250303233513.png)
 
-![Pasted image 20250303233541.png](Pasted%20image%2020250303233541.png)
+![Pasted image 20250303233541.png](../Images/Pasted%20image%2020250303233541.png)
 
 
 ### Análisis Empresarial
@@ -106,22 +106,22 @@ Se hace el análisis económico del proyecto, teniendo en cuenta los flujos de e
 
 En caso de no considerarse el proyecto como válido, se deben reajustar los flujos de dinero, ya sea seleccionando elementos menos costosos, eliminando gastos, o aumentando el valor de los ingresos.
 
-![Pasted image 20250303234927.png](Pasted%20image%2020250303234927.png)
+![Pasted image 20250303234927.png](../Images/Pasted%20image%2020250303234927.png)
 
-![Pasted image 20250303234958.png](Pasted%20image%2020250303234958.png)
+![Pasted image 20250303234958.png](../Images/Pasted%20image%2020250303234958.png)
 
-![Pasted image 20250303235041.png](Pasted%20image%2020250303235041.png)
+![Pasted image 20250303235041.png](../Images/Pasted%20image%2020250303235041.png)
 
 
 ### Análisis Industrial
 
 Se genera el gemelo digital que virtualiza la planta, con el software Siemens NX. A partir de esto, se desglosa el problema de control por medio de los lenguajes GRAFCET y LADDER.
 
-![Pasted image 20250304001344.png](Pasted%20image%2020250304001344.png)
+![Pasted image 20250304001344.png](../Images/Pasted%20image%2020250304001344.png)
 
-![Pasted image 20250304001448.png](Pasted%20image%2020250304001448.png)
+![Pasted image 20250304001448.png](../Images/Pasted%20image%2020250304001448.png)
 
-![Pasted image 20250304001611.png](Pasted%20image%2020250304001611.png)
+![Pasted image 20250304001611.png](../Images/Pasted%20image%2020250304001611.png)
 
 
 ### Definición de Escalones altos en la Pirámide de Automatización
@@ -130,7 +130,7 @@ El objetivo de esta sección es generar un sistema SCADA donde sea posible super
 
 Las variables obtenidas en la función de históricos de los sistemas SCADA, son utilizadas en la industria por los sistemas MES, por lo que se genera una propuesta para llevar a cabo esto.
 
-![Pasted image 20250304001629.png](Pasted%20image%2020250304001629.png)
+![Pasted image 20250304001629.png](../Images/Pasted%20image%2020250304001629.png)
 
 
 ## Cronograma
@@ -139,7 +139,7 @@ De acuerdo a las actividades enunciadas en el *EDT*, se establecen los tiempos d
 
 Se muestra a continuación, nuestro cronograma de actividades:
 
-![Pasted image 20250304003102.png](Pasted%20image%2020250304003102.png)
+![Pasted image 20250304003102.png](../Images/Pasted%20image%2020250304003102.png)
 
 
 Se tienen en cuenta las actividades principales, así como también los tiempos de ejecución pertienentes para el desarrollo de cada una de ellas. Las actividades con mayor relevancia, son aquellas de las que dependen otras actividades, por lo que estas deben hacerse en un menor tiempo, ya que, hay actividades que solo pueden comenzar después de estas.
@@ -201,7 +201,7 @@ Ahora bien, cada juguete posee elementos adicionales que deben ser traidos de pr
 
 Adicionalmente, se necesitan las cajas y los moldes de plástico para la presentación de cada producto. Estos elementos son traídos de proveedores externos.
 
-![Pasted image 20250304125359.png](Pasted%20image%2020250304125359.png)
+![Pasted image 20250304125359.png](../Images/Pasted%20image%2020250304125359.png)
 
 ### Definición de Procesos
 
@@ -217,7 +217,7 @@ Se listan a continuación, algunas fuentes que nos sirvieron para determinar los
 
 Se llegó a la conclusión de utilizar las siguientes etapas:
 
-![Pasted image 20250304130414.png](Pasted%20image%2020250304130414.png)
+![Pasted image 20250304130414.png](../Images/Pasted%20image%2020250304130414.png)
 
 A partir de esto, se construye el layout de la planta, donde se definen los siguientes puntos:
 - Maquinaria específica (referencias)
