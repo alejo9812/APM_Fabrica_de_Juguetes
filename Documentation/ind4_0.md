@@ -4,16 +4,18 @@
 
 Se realiza el diagrama *P&ID* de la celda robotizada.
 
-![[Pasted image 20250306005800.png]]
+![image](https://github.com/user-attachments/assets/231c90f3-e4f6-4920-910b-4c445efdd502)
 
-![[Pasted image 20250306005924.png]]
+![image](https://github.com/user-attachments/assets/4e53bf74-f500-4c75-9815-2e155d25e71d)
+
 
 
 ## Arquitectura de Control
 
-![[Pasted image 20250306004502.png]]
+![image](https://github.com/user-attachments/assets/0b054de0-7bf7-490e-8f69-975aedfd568c)
 
-![[Pasted image 20250306010018.png]]
+![image](https://github.com/user-attachments/assets/7410d446-fc9a-4478-9084-6901edb6b4c6)
+
 
 ## Gemelo Digital (Modelo Ciberfísico)
 
