@@ -42,7 +42,7 @@ El IoT mejora la trazabilidad en la cadena de suministro, permitiendo el seguimi
 Los dispositivos IoT proporcionan grandes volúmenes de datos que pueden analizarse para obtener insights sobre la eficiencia de la producción y otros parámetros operativos.
 
 
-### Recolección y Análisis de Datos de IoT, Sensores y Actuadores para Analizar Indicadores Financieros
+## Recolección y Análisis de Datos de IoT, Sensores y Actuadores para Analizar Indicadores Financieros
 
 La **recolección de datos** es uno de los aspectos más importantes en la automatización industrial. Los dispositivos IoT, sensores y actuadores instalados en las máquinas y equipos recolectan datos continuamente sobre diferentes parámetros de la producción, tales como:
 
@@ -61,7 +61,7 @@ Una vez que los datos son recolectados a través de los dispositivos IoT, es fun
 - **Optimización de inventarios**: Usando los datos de sensores de inventario para reducir los costos asociados al exceso o escasez de materiales.
 
 
-### Implementación de Sistemas de Información Seguros, con Aspectos de Ciberseguridad y Protección de Datos
+## Implementación de Sistemas de Información Seguros, con Aspectos de Ciberseguridad y Protección de Datos
 
 
 En una planta automatizada que utiliza tecnologías como el IoT y el Gemelo Digital, la **ciberseguridad** se vuelve crucial, ya que los sistemas están interconectados a través de redes industriales y conectividad a Internet. Los principales desafíos de ciberseguridad incluyen:
