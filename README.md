@@ -1,7 +1,7 @@
 # MechaMinds Toys
 
 *Proyecto Final Asignatura Automatización de Procesos de Manufactura
-Ingeniería Mecatrónica, Universidad Nacional de Colombia
+Ingeniería Mecatrónica, Universidad Nacional de Colombia*
 
 ## Enlaces
 
