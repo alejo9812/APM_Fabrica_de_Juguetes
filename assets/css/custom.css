@@ -6,6 +6,7 @@ Custom Css
 
 #documentation,
 #documentation * {
+    width: 100%;
     max-width: 800px;
     margin: auto;
     padding: 14px;
@@ -25,7 +26,7 @@ Custom Css
   
 /* Left and right columns take 25% width */
 .left, .right {
-    width: 25%;
+    width: 15%;
     background: #f4f4f4; /* Light gray background */
 }
 
@@ -37,7 +38,7 @@ Custom Css
 }
 
 .md-content {
-    padding-top: 7%;
+    padding-top: 0%;
 }
 
 #abt-container {
@@ -67,7 +68,8 @@ Custom Css
 
 #members div div h1 {
     position: relative;
-    top: 5%;
+    top: 10%;
+    font-size: 2em;
 }
 
 #members div div p {
