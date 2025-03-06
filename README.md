@@ -1,14 +1,12 @@
-# APM_Fabrica_de_Juguetes
-Proyecto Final Asignatura Automatización de Procesos de Manufactura, Universidad Nacional de Colombia, Ingeniería Mecatrónica
+# MechaMinds Toys
 
-[Link de la pagina del proyecto](https://alejo9812.github.io/APM_Fabrica_de_Juguetes/)
+*Proyecto Final Asignatura Automatización de Procesos de Manufactura
+Ingeniería Mecatrónica, Universidad Nacional de Colombia
 
-[Link del video](https://youtu.be/4XehNXfH7wo)
+## Enlaces
 
-## Introducción
-
-- Intro
-- Productos
+- [Nuestra Página Web](https://alejo9812.github.io/APM_Fabrica_de_Juguetes/)
+- [Video del Proyecto](https://youtu.be/4XehNXfH7wo)
 
 ## Secciones
 
@@ -21,6 +19,7 @@ Proyecto Final Asignatura Automatización de Procesos de Manufactura, Universida
 - [Implementación de Controladores Industriales](Documentation/plcs.md)
 - [Sistema SCADA](Documentation/scada.md)
 
-## Referencias
+---
 
-- https://alejo9812.github.io/APM_Fabrica_de_Juguetes/index.html
+- [Productos](Documentation/productos.md)
+- [Proceso de Aprendizaje](proceso_aprendizaje.md)
