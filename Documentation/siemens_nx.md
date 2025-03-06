@@ -6,13 +6,15 @@ Se hace un enfoque en la primera parte del proceso de automatización, donde ent
 
 No obstante, por motivos de tiempo, no se implementa el manipulador serial en la simulación.
 
-![[WhatsApp Bild 2025-03-02 um 09.55.06_9097e786.jpg]]
+![image](https://github.com/user-attachments/assets/6f0bbaa9-201a-49f8-b56f-96536b26791d)
+
 
 Como se puede ver en la imagen, la inyectora se encuentra al inicio de la línea de manufactura, de aquí salen las piezas que pasan luego a la estación de corte. Posteriormente, los pellets pasan por un proceso de enfriamiento y transporte.
 
 A continuación, se plantea el mismo proceso con una bifurcación después de la estación de corte.
 
-![[Pasted image 20250306001405.png]]
+![image](https://github.com/user-attachments/assets/f221d9ae-0a62-4915-8408-dae679e82636)
+
 
 
 **Ver siguiente sección:** [Implementación de Controladores Industriales](plcs.md)
