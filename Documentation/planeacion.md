@@ -34,18 +34,18 @@ De acuerdo a los entregables principales listados anteriormente, se desglosa cad
 
 A la cabeza del diagrama se encuentra el nombre del proyecto, de aquí se desprenden los entregables principales, los cuales, se desglosan en actividades más pequeñas.
 
-![Pasted image 20250303224016.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303224016.png)
+![image](https://github.com/user-attachments/assets/f8a9c31a-caa9-4673-8e0c-36b1e47db29b)
 
 Se muestra a continuación, la vista global del EDT, se abordará cada subsección individualmente.
 
-![Pasted image 20250303232441.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303232441.png)
+![image](https://github.com/user-attachments/assets/e9603b96-e7be-4334-85c1-a160e1b2f9db)
 
 
 ### Acciones Preliminares
 
 Se plantea en las primeras semanas la identidad del grupo, así como los productos a ser fabricados. 
 
-![Pasted image 20250303224318.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303224318.png)
+![image](https://github.com/user-attachments/assets/3709a29e-60d1-4464-a01f-8543c242c583)
 
 Los productos son seleccionados de acuerdo a los parámetros establecidos en las instrucciones del proyecto. Se tuvieron en cuenta aspectos adicionales para la selección de los mismos, los cuales son:
 
@@ -67,11 +67,11 @@ El objetivo principal de esta sección es definir por cada juguete, los siguient
 
 Se analizan también algunos parámetros para la selección de maquinaria. Se seleccionan ciertas referencias en el mercado, de tal manera que se pueda tener un acercamiento más preciso sobre los costos y características de la maquinaria que influirá en otras actividades del proyecto.
 
-![Pasted image 20250303230714.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303230714.png)
+![image](https://github.com/user-attachments/assets/f0f4daf5-01c8-4c04-a7d6-fc137108b0e2)
 
-![Pasted image 20250303230745.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303230714.png)
+![image](https://github.com/user-attachments/assets/92ce107f-a777-4a16-94ef-7f2770ec3968)
 
-![Pasted image 20250303230822.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303230822.png)
+![image](https://github.com/user-attachments/assets/e61987c6-a724-44f7-879b-59a135c88559)
 
 
 ### Organización y Gestión
@@ -80,9 +80,9 @@ En esta sección se definen aquellas piezas adicionales en cada juguete que debe
 
 Se define también el layout de la planta, junto con el número de máquinas en cada etapa.
 
-![Pasted image 20250303232328.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303232328.png)
+![image](https://github.com/user-attachments/assets/9512fd6c-bc29-4b5f-9f7d-0118e5da989f)
 
-![Pasted image 20250303232354.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303232354.png)
+![image](https://github.com/user-attachments/assets/b0e812d1-b9bf-4e3f-bd7f-14c112d508da)
 
 
 ### Análisis de Manufactura
@@ -91,13 +91,13 @@ De acuerdo al layout de la planta concebido en la anterior sección, se organiza
 
 Se desarrolla en esta sección la simulación de la planta en con *Tecnomatix Plant Simulation*, y se obtienen los parámetros de gestión y producción.
 
-![Pasted image 20250303233352.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303233352.png)
+![image](https://github.com/user-attachments/assets/64bd6483-f0c9-42b5-8b0e-2c4e61836cfe)
 
-![Pasted image 20250303233455.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303233455.png)
+![image](https://github.com/user-attachments/assets/8b97e159-bb81-4639-9513-33fa0fa992ae)
 
-![Pasted image 20250303233513.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303233513.png)
+![image](https://github.com/user-attachments/assets/6479ee1e-5eb5-4a3f-a4e3-d7cb23f55b84)
 
-![Pasted image 20250303233541.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303233513.png)
+![image](https://github.com/user-attachments/assets/cd2c9ff2-c2ce-449f-89cb-adb1c6902866)
 
 
 ### Análisis Empresarial
@@ -106,22 +106,22 @@ Se hace el análisis económico del proyecto, teniendo en cuenta los flujos de e
 
 En caso de no considerarse el proyecto como válido, se deben reajustar los flujos de dinero, ya sea seleccionando elementos menos costosos, eliminando gastos, o aumentando el valor de los ingresos.
 
-![Pasted image 20250303234927.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303234927.png)
+![image](https://github.com/user-attachments/assets/4cc728c7-bcb2-436a-bc3c-00a8bbd5c228)
 
-![Pasted image 20250303234958.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303234958.png)
+![image](https://github.com/user-attachments/assets/3c6bf41b-8e60-4663-82b8-7953378e1205)
 
-![Pasted image 20250303235041.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250303235041.png)
+![image](https://github.com/user-attachments/assets/6015e673-12e9-4fd4-acae-94fa0b917d31)
 
 
 ### Análisis Industrial
 
 Se genera el gemelo digital que virtualiza la planta, con el software Siemens NX. A partir de esto, se desglosa el problema de control por medio de los lenguajes GRAFCET y LADDER.
 
-![Pasted image 20250304001344.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304001344.png)
+![image](https://github.com/user-attachments/assets/7c744330-6804-43cd-94c2-c0169c813317)
 
-![Pasted image 20250304001448.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304001448.png)
+![image](https://github.com/user-attachments/assets/7517793f-c428-4d2c-a04a-32e1a0549ae0)
 
-![Pasted image 20250304001611.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304001611.png)
+![image](https://github.com/user-attachments/assets/8b99bae3-5411-4b42-a4de-8708fa76ae8f)
 
 
 ### Definición de Escalones altos en la Pirámide de Automatización
@@ -130,7 +130,7 @@ El objetivo de esta sección es generar un sistema SCADA donde sea posible super
 
 Las variables obtenidas en la función de históricos de los sistemas SCADA, son utilizadas en la industria por los sistemas MES, por lo que se genera una propuesta para llevar a cabo esto.
 
-![Pasted image 20250304001629.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304001629.png)
+![image](https://github.com/user-attachments/assets/3b5fc420-f659-43fa-9821-fc9a22977fb2)
 
 
 ## Cronograma
@@ -139,8 +139,7 @@ De acuerdo a las actividades enunciadas en el *EDT*, se establecen los tiempos d
 
 Se muestra a continuación, nuestro cronograma de actividades:
 
-![Pasted image 20250304003102.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304003102.png)
-
+![image](https://github.com/user-attachments/assets/424bf5a7-7242-4538-9b94-e532738362ff)
 
 Se tienen en cuenta las actividades principales, así como también los tiempos de ejecución pertienentes para el desarrollo de cada una de ellas. Las actividades con mayor relevancia, son aquellas de las que dependen otras actividades, por lo que estas deben hacerse en un menor tiempo, ya que, hay actividades que solo pueden comenzar después de estas.
 
@@ -201,7 +200,7 @@ Ahora bien, cada juguete posee elementos adicionales que deben ser traidos de pr
 
 Adicionalmente, se necesitan las cajas y los moldes de plástico para la presentación de cada producto. Estos elementos son traídos de proveedores externos.
 
-![Pasted image 20250304125359.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304003102.png)
+![Pasted image 20250304125359](https://github.com/user-attachments/assets/6c344147-bbce-4c9c-aa52-a2bf812d7701)
 
 ### Definición de Procesos
 
@@ -217,7 +216,7 @@ Se listan a continuación, algunas fuentes que nos sirvieron para determinar los
 
 Se llegó a la conclusión de utilizar las siguientes etapas:
 
-![Pasted image 20250304130414.png](https://github.com/alejo9812/APM_Fabrica_de_Juguetes/blob/main/Images/Pasted%20image%2020250304130414.png)
+![image](https://github.com/user-attachments/assets/51bcfd38-29dd-420b-b84d-d2b7e92ac5d7)
 
 A partir de esto, se construye el layout de la planta, donde se definen los siguientes puntos:
 - Maquinaria específica (referencias)
