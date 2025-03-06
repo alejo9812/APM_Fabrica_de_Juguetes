@@ -3,6 +3,9 @@ Custom Css
 */
 
 /* Class and IDs Definition */
+body {
+    overflow-x:hidden
+}
 
 #documentation,
 #documentation * {
@@ -307,6 +310,12 @@ Custom Css
     bottom: 23em;
 }
 
+.logo_img {
+    position: relative;
+    width: 2em;
+    height:auto;
+    margin-right: 3%;
+}
 
 /* ANIMATIONS */
 
