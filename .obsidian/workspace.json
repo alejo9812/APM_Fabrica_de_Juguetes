@@ -11,14 +11,12 @@
             "id": "10ea75c9e25df749",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Documentation/ind4_0.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/WhatsApp Bild 2025-03-02 um 09.55.06_9097e786.jpg"
               },
-              "icon": "lucide-file",
-              "title": "ind4_0"
+              "icon": "lucide-image",
+              "title": "WhatsApp Bild 2025-03-02 um 09.55.06_9097e786"
             }
           }
         ]
@@ -168,24 +166,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "10ea75c9e25df749",
+  "active": "cf2808e041ba8f63",
   "lastOpenFiles": [
-    "Pasted image 20250306010018.png",
-    "Pasted image 20250306005924.png",
-    "Pasted image 20250306005800.png",
-    "Pasted image 20250306004502.png",
-    "Documentation/gestion.md",
-    "Pasted image 20250306004016.png",
+    "Images/Pasted image 20250305235840.png",
+    "Images/Pasted image 20250306005800.png",
+    "Images/WhatsApp Bild 2025-03-02 um 09.55.06_9097e786.jpg",
     "Documentation/ind4_0.md",
+    "Images/Pasted image 20250306010018.png",
+    "Images/Pasted image 20250306005924.png",
+    "Images/Pasted image 20250306004502.png",
+    "Documentation/gestion.md",
+    "Images/Pasted image 20250306004016.png",
     "Documentation/plcs.md",
     "Documentation/scada.md",
-    "Pasted image 20250306003004.png",
-    "Pasted image 20250306002914.png",
-    "Pasted image 20250306002857.png",
+    "Images/Pasted image 20250306003004.png",
+    "Images/Pasted image 20250306002914.png",
+    "Images/Pasted image 20250306002857.png",
     "Documentation/siemens_nx.md",
-    "WhatsApp Bild 2025-03-02 um 09.55.06_9097e786.jpg",
-    "Pasted image 20250306001405.png",
-    "Pasted image 20250305235840.png",
+    "Images/Pasted image 20250306001405.png",
     "Documentation/eva_economica.md",
     "Documentation/celda_robotizada.md",
     "Documentation/productos.md",
