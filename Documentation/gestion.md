@@ -127,6 +127,53 @@ Los tiempos de no operación en la inyectora y la cortadora, se deben al tiempo 
 
 Se asignaron porcentajes de falla bajos a las pulidoras, a la máquina de empaque y a la etapa de embalaje.
 
+El diagrama VSM de la planta es el siguiente:
+
+![[Pasted image 20250306004016.png]]
+
+
+## Propuesta para llevar la información de la planta a un sistema MES
+
+Las variables obtenidas de la parte baja de la pirámide, son supervisadas y recolectadas en los históricos del sistema SCADA. No obstante, con la finalidad de tomar decisiones financieras a partir de estos datos, es necesario integrar un sistema *Manufacturing Execution System (MES)*.
+
+### 1. **Recopilación de Datos de la Planta**
+
+- **Sensores y Dispositivos IoT**: Instalar sensores en la maquinaria y equipos de producción para monitorear variables clave como temperatura, velocidad, presión, ciclos de máquina, entre otros. Estos sensores pueden estar conectados a dispositivos IoT (Internet of Things) para la recopilación en tiempo real.
+- **Controladores Lógicos Programables (PLC)**: Utilizar PLCs para controlar y monitorear las máquinas de la planta. Los PLCs pueden generar señales de estado, alarmas, y datos operativos que son fundamentales para la gestión del proceso.
+- **SCADA (Supervisory Control and Data Acquisition)**: Integrar un sistema SCADA que recoja y visualice datos de los PLCs, controladores y otros equipos automatizados. SCADA también puede procesar y almacenar datos históricos.
+
+### 2. **Conectividad y Transmisión de Datos**
+
+- **Protocolos de Comunicación Industrial**: Utilizar protocolos de comunicación como OPC-UA (Open Platform Communications Unified Architecture), MQTT (Message Queuing Telemetry Transport), o Modbus TCP/IP para transmitir los datos entre los dispositivos de la planta (sensores, PLCs, etc.) y el sistema MES.
+- **Redes Industriales**: Implementar una red industrial segura, como Ethernet Industrial, para garantizar la transmisión eficiente y segura de los datos desde la planta hacia el sistema MES.
+
+### 3. **Integración con el Sistema MES**
+
+- **Interfaz de Integración MES-PLC**: Configurar una interfaz de integración entre los PLCs y el sistema MES que pueda recibir y procesar datos en tiempo real. El MES debe estar preparado para recibir variables de producción, estado de las máquinas, cantidades producidas, tiempos de ciclo, entre otros.
+- **Base de Datos Centralizada**: El sistema MES debe estar vinculado a una base de datos centralizada donde se almacenen todos los datos históricos, los registros de producción, las órdenes de trabajo, y las variables de proceso. Esto facilita la trazabilidad y el análisis posterior.
+- **APIs para Interoperabilidad**: Desarrollar o utilizar APIs (interfaces de programación de aplicaciones) para permitir la interoperabilidad entre diferentes sistemas (como el ERP, SCADA y MES). Esto facilitará la actualización de información entre el sistema MES y otros sistemas como ERP (Enterprise Resource Planning) para la gestión de inventarios, pedidos y programación.
+
+### 4. **Visualización y Monitoreo**
+
+- **Paneles de Control en Tiempo Real**: Implementar paneles de control en tiempo real en el sistema MES, donde se muestren indicadores clave de desempeño (KPIs) como eficiencia de la máquina, tiempo de inactividad, tasa de producción, calidad, etc.
+- **Alertas y Notificaciones**: Configurar alertas y notificaciones automáticas cuando ciertos parámetros de producción no se cumplan o cuando se detecten fallas o desvíos en el proceso. Esto permitirá a los operadores intervenir rápidamente.
+- **Historial de Datos**: El sistema MES debe permitir la consulta y análisis de los datos históricos para mejorar la toma de decisiones y realizar mantenimiento predictivo.
+
+### 5. **Trazabilidad y Reportes**
+
+- **Seguimiento de Lotes y Productos**: El MES debe ser capaz de rastrear el flujo de materiales y productos en la planta, desde la materia prima hasta el producto final. Esto permite una trazabilidad completa y mejora la gestión de la calidad.
+- **Reportes Automáticos**: Configurar reportes automáticos que se generen al final de cada turno o al completar un lote de producción. Estos reportes pueden incluir datos de eficiencia, calidad, utilización de recursos, etc.
+
+### 6. **Mantenimiento Predictivo**
+
+- **Análisis de Datos**: Usar los datos recolectados por los dispositivos IoT y sensores para realizar análisis predictivos sobre el estado de las máquinas. Implementar algoritmos de aprendizaje automático (Machine Learning) para predecir posibles fallas en la maquinaria y programar mantenimientos preventivos, reduciendo tiempos de inactividad.
+
+### 7. **Seguridad y Cumplimiento**
+
+- **Ciberseguridad**: Implementar medidas de ciberseguridad para proteger la infraestructura de la planta automatizada y el sistema MES de ataques cibernéticos. Esto incluye el uso de firewalls industriales, VPNs (Redes Privadas Virtuales), y autenticación de usuarios.
+- **Cumplimiento Normativo**: Asegurar que el sistema MES cumpla con las normativas de calidad y seguridad, como ISO 9001, y que permita generar los reportes necesarios para auditorías y certificaciones.
+
+
 ## Parámetros de Manufactura
 
 Se establecen los siguientes parámetros de producción:

@@ -15,8 +15,11 @@ Las etapas se listan a continuación:
 - Etapa 7: Apagar Actuador 2
 - Etapa 8: Contar Objetos
 
+En *Studio 5000*, se plantea la lógica de LADDER al estilo de GRAFCET.
 
+![[Pasted image 20250306002914.png]]
 
+![[Pasted image 20250306003004.png]]
 
 **Ver siguiente sección:** [Sistema SCADA](scada.md)
 

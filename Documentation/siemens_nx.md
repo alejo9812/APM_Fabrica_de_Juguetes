@@ -8,11 +8,11 @@ No obstante, por motivos de tiempo, no se implementa el manipulador serial en la
 
 ![[WhatsApp Bild 2025-03-02 um 09.55.06_9097e786.jpg]]
 
-Como se puede ver en la imagen, la inyectora se encuentra al inicio de la línea de manufactura, de aquí salen las piezas que pasan luego a la estación de corte. De aquí
+Como se puede ver en la imagen, la inyectora se encuentra al inicio de la línea de manufactura, de aquí salen las piezas que pasan luego a la estación de corte. Posteriormente, los pellets pasan por un proceso de enfriamiento y transporte.
+
+A continuación, se plantea el mismo proceso con una bifurcación después de la estación de corte.
 
 ![[Pasted image 20250306001405.png]]
-
-
 
 
 **Ver siguiente sección:** [Implementación de Controladores Industriales](plcs.md)
